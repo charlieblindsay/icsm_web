@@ -1,0 +1,10 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-flow: space-around;
+  text-align: center;
+}
+
+.row-item {
+  width: 50%;
+}

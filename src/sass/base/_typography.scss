@@ -1,0 +1,41 @@
+// this is what 1 rem is
+hmtl {
+  font-size: 62.5%;
+}
+
+base {
+  line-height: 1.7;
+  color: $color-white;
+  font-weight: 400;
+  font-family: "Nunito";
+}
+
+.primary-title {
+  font-weight: 700;
+  color: $color-primary-dark;
+  font-size: 2.5rem;
+
+  &__margin-big {
+    margin-bottom: 50vh;
+  }
+
+  &__margin-small {
+    margin-bottom: 10vh;
+  }
+}
+
+.secondary-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.tertiary-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  padding: 0.5rem;
+  list-style-type: none;
+}
