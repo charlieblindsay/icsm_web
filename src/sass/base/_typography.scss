@@ -11,14 +11,13 @@ base {
 }
 
 .secondary-title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .tertiary-title {
   font-size: 1.5rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
+  font-weight: 300;
 }
 
 // MARGINS
@@ -60,6 +59,7 @@ base {
   border: 1px solid $color-black;
 }
 
+//HIDDEN CLASS FOR RESPONSIVENESS
 .hidden{
   @include respond(phone){
     visibility: hidden;

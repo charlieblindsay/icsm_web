@@ -2,6 +2,7 @@ import './css/main.css';
 import './css/fonts.css';
 import React from 'react';
 import Logo from './img/icsm-logo.png';
+import Video from './Video';
 
 const head = (
   <head>
@@ -22,6 +23,9 @@ const head = (
 </head>
 );
 
+const overviewListItems = ['Interactive exercises', 'Real world projects','Competitions','Weekly drop-in Q&A sessions'];
+const overviewList = overviewListItems.map(e => <li className='overview__item'>{e}</li>)
+
 const html = ( 
 <body>
   <header className='header'>
@@ -37,12 +41,9 @@ const html = (
   <div className="overview">
     <div className='overview__text-box'>
         <h2 className='secondary-title'>10 Week Course</h2>
-        <h3 className='tertiary-title'>Build you knowledge from the basics</h3>
+        <h3 className='tertiary-title margin-small'>Build you knowledge from the basics</h3>
         <ul>
-          <li className="overview__item">Interactive exercises</li>
-          <li className="overview__item">Real world projects</li>
-          <li className="overview__item">Competitions</li>
-          <li className="overview__item">Weekly drop-in Q&A sessions</li>
+          {overviewList}
         </ul>
     </div>
   </div>
@@ -56,6 +57,10 @@ const html = (
       <li className="footer__item"><a href="" className="footer__link">team</a></li>
     </ul>
   </footer>
+
+  <Video src='https://www.youtube.com/embed/gMiq50rNOlA'/>
+  
+
 
 </body>
 );
