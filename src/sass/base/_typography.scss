@@ -1,8 +1,3 @@
-// this is what 1 rem is
-hmtl {
-  font-size: 62.5%;
-}
-
 base {
   line-height: 1.7;
   color: $color-white;
@@ -12,27 +7,35 @@ base {
 
 .primary-title {
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 5rem;
 }
 
 .secondary-title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .tertiary-title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
   margin-bottom: 1rem;
-}
-
-li {
-  padding: 0.5rem;
-  list-style-type: none;
 }
 
 // MARGINS
 .margin-big {
   margin-bottom: 50vh;
+
+  @include respond(phone){
+    margin-bottom: 20vh;
+  }
+
+  @include respond(tab-port){
+    margin-bottom: 20vh;
+  }
+
+  @include respond(tab-land){
+    margin-bottom: 20vh;
+  }
 }
 
 .margin-medium {
@@ -46,4 +49,27 @@ li {
 //TEXT COLOR
 .color-blue{
   color: $color-primary-dark;
+}
+
+//HORIZONTAL RULE
+.hr-footer{
+  margin-top: 5vh;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  border: 1px solid $color-black;
+}
+
+.hidden{
+  @include respond(phone){
+    visibility: hidden;
+  }
+
+  @include respond(tab-port){
+    visibility: hidden;
+  }
+
+  @include respond(tab-land){
+    visibility: hidden;
+  }
 }

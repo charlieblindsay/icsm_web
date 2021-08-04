@@ -1,0 +1,43 @@
+.footer{
+    height: 50vh;
+    text-align: center;
+    padding: 1rem;
+    background-color: $color-footer;
+    position: relative;
+
+
+    &__list{
+      list-style: none;
+      left: 50%;
+      transform: translate(-50% 0);
+    }
+
+    &__item{
+      padding-right: 2rem;
+      padding-top:1rem;
+      display: inline-block;
+
+    }
+
+    &__link{
+
+      &:visited, &:link{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $color-light-grey;
+        display: inline-block;
+      }
+
+      &:hover, &:active{
+        color: $color-primary-light;
+      }
+
+      &:hover{
+        transform: translate(0, -3px);
+      }
+
+      &:active{
+        transform: translate(0, -1px);
+      }
+    }
+  }
