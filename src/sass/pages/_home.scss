@@ -50,3 +50,10 @@
 
   clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%);
 }
+
+.footer{
+  height: 50vh;
+  text-align: center;
+  padding: 1rem;
+  background-color: $color-footer;
+}

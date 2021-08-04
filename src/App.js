@@ -1,6 +1,7 @@
 import './css/main.css';
 import './css/fonts.css';
 import React from 'react';
+import Logo from './img/icsm-logo.png';
 
 const head = (
   <head>
@@ -25,8 +26,10 @@ const html = (
 <body>
   <header className='header'>
     <div className='header__text-box'>
-    <h1 className="primary-title primary-title__margin-big">Python Course
-Autumn Term</h1>
+    <h1 className="primary-title color-blue">Python Course</h1>
+    <h1 className="primary-title color-blue margin-big ">
+      Autumn Term
+    </h1>
 <a href='#' className='btn btn-primary'>SIGN UP</a>
     </div>
   </header>
@@ -46,7 +49,7 @@ Autumn Term</h1>
 
   <div className='structure'>
     <ul className='structure__course-buttons'>
-    <h2 className="secondary-title">Course structure 2021</h2>
+    <h2 className="secondary-title margin-small">Course structure 2021</h2>
       <li><a href="" className="btn btn-course">Section 1</a></li>
       <li><a href="" className="btn btn-course">Section 1</a></li>
       <li><a href="" className="btn btn-course">Section 1</a></li>
@@ -58,13 +61,21 @@ Autumn Term</h1>
   <div className="signup">
     <div className="row">
       <div className="row-item">
-      <h1 className="primary-title primary-title__margin-small">All abilities are welcome</h1>
+      <h1 className="primary-title margin-medium">All abilities are welcome</h1>
     <a href="" className="btn btn-primary">Sign up</a>
       </div>
       <div className="row-item">
       </div>
     </div>
   </div>
+
+  <footer className="footer">
+    <img src={Logo} alt="" width="30%"/>
+    <hr></hr>
+    <ul className="row">
+      <li><a href="">hello</a><a href="">hello</a><a href="">hello</a></li>
+    </ul>
+  </footer>
 
 </body>
 );

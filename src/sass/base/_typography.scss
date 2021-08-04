@@ -12,21 +12,11 @@ base {
 
 .primary-title {
   font-weight: 700;
-  color: $color-primary-dark;
   font-size: 2.5rem;
-
-  &__margin-big {
-    margin-bottom: 50vh;
-  }
-
-  &__margin-small {
-    margin-bottom: 10vh;
-  }
 }
 
 .secondary-title {
   font-size: 2rem;
-  margin-bottom: 1rem;
   font-weight: 700;
 }
 
@@ -38,4 +28,22 @@ base {
 li {
   padding: 0.5rem;
   list-style-type: none;
+}
+
+// MARGINS
+.margin-big {
+  margin-bottom: 50vh;
+}
+
+.margin-medium {
+  margin-bottom: 10vh;
+}
+
+.margin-small{
+  margin-bottom: 1rem;
+}
+
+//TEXT COLOR
+.color-blue{
+  color: $color-primary-dark;
 }
