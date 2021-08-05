@@ -7,14 +7,18 @@ import {
 
 
 import HomePage from './pages/HomePage';
-import Section1 from './pages/Section1';
+import Section from './pages/Section';
 
 function App(){
     return (
         <BrowserRouter>
         <Switch>
-            <Route path='/videos/section1' component={Section1} />
-            <Route path='/' component={HomePage} />
+            <Route path='/videos/section1'>
+                <Section sectionNumber='1' />
+            </Route>
+            <Route path='/'>
+                <HomePage />
+            </Route>
         </Switch>
         </BrowserRouter>
 

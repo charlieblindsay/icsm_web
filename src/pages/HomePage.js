@@ -2,27 +2,7 @@ import React from 'react';
 import '../css/main.css';
 import '../css/fonts.css';
 import Logo from '../img/icsm-logo.png';
-
-import {Link} from 'react-router-dom';
-
-const head = (
-  <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta
-    name="description"
-    content="ICSM Coding App Description"
-  />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
-  {/* Google fonts */}
-
-  <title>ICSM Coding</title>
-</head>
-);
+import ButtonPrimary from '../R_components/PrimaryButton';
 
 const overviewListItems = ['Interactive exercises', 'Real world projects','Competitions','Weekly drop-in Q&A sessions'];
 const overviewList = overviewListItems.map(e => <li className='overview__item'>{e}</li>)
@@ -35,7 +15,7 @@ const html = (
     <h1 className="secondary-title color-blue margin-big hidden ">
       Autumn Term
     </h1>
-      <Link to='/videos/section1' className='btn btn-primary'>Section 1</Link>
+      <ButtonPrimary href='/videos/section1' buttonText='Sign up' />
     </div>
   </header>
 
@@ -46,6 +26,7 @@ const html = (
         <ul>
           {overviewList}
         </ul>
+        <ButtonPrimary href='#' buttonText='Find out more' />
     </div>
   </div>
 
@@ -66,7 +47,6 @@ const html = (
 
 function HomePage() {
   return (
-    head,
     html
   );
 }

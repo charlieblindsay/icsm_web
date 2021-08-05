@@ -1,8 +1,7 @@
 .iframe-container{
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
-    height: 0;
+    padding-bottom: 56.25%;
 
   }
   .iframe-container iframe{
@@ -10,7 +9,8 @@
     top:0;
     left: 0;
     width: 60%;
-    height: 60%;
+    height: 80%;
+
 
     @include respond(tab-land){
       width: 100%;
