@@ -35,8 +35,7 @@ const html = (
     <h1 className="secondary-title color-blue margin-big hidden ">
       Autumn Term
     </h1>
-      <Link to='/videos/section1'>Section 1</Link>
-<a href='#' className='btn btn-primary'>SIGN UP</a>
+      <Link to='/videos/section1' className='btn btn-primary'>Section 1</Link>
     </div>
   </header>
 
