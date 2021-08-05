@@ -8,6 +8,8 @@ import {
 
 import HomePage from './pages/HomePage';
 import Section from './pages/Section';
+import Course from './pages/Course';
+import Footer from './layout/Footer';
 
 function App(){
     return (
@@ -16,10 +18,14 @@ function App(){
             <Route path='/videos/section1'>
                 <Section sectionNumber='1' />
             </Route>
+            <Route path='/course'>
+                <Course/>
+            </Route>
             <Route path='/'>
                 <HomePage />
             </Route>
         </Switch>
+        {/* <Footer /> */}
         </BrowserRouter>
 
     )

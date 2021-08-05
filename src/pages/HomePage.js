@@ -26,7 +26,7 @@ const html = (
         <ul>
           {overviewList}
         </ul>
-        <ButtonPrimary href='#' buttonText='Find out more' />
+        <ButtonPrimary href='/course' buttonText='Find out more' />
     </div>
   </div>
 
