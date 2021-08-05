@@ -24,14 +24,6 @@ base {
 .margin-big {
   margin-bottom: 50vh;
 
-  @include respond(phone){
-    margin-bottom: 20vh;
-  }
-
-  @include respond(tab-port){
-    margin-bottom: 20vh;
-  }
-
   @include respond(tab-land){
     margin-bottom: 20vh;
   }
@@ -61,14 +53,6 @@ base {
 
 //HIDDEN CLASS FOR RESPONSIVENESS
 .hidden{
-  @include respond(phone){
-    visibility: hidden;
-  }
-
-  @include respond(tab-port){
-    visibility: hidden;
-  }
-
   @include respond(tab-land){
     visibility: hidden;
   }

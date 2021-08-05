@@ -8,7 +8,7 @@
     @if $breakpoint == phone{
         @media (max-width: 600px) { @content }
     }
-    @if $breakpoint == tab-portsdff{
+    @if $breakpoint == tab-ports{
         @media (max-width: 900px) { @content }
     }
 

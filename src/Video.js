@@ -7,7 +7,7 @@ const Video = props => {
             <h2 className="secondary-title margin-small">Variables, printing, conditionals</h2>
             <h3 className="tertiary-title">1.1 Printing to the console</h3>
             <div className="iframe-container">
-                <iframe width="80%" height='315' type="text/html" frameborder="0" allowfullscreen="" src={props.src} data-youtubeid="G4doTGQPRPw" data-translatedyoutubeid="G4doTGQPRPw" tabindex="0" allow="autoplay"></iframe>
+                <iframe type="text/html" frameborder="0" allowfullscreen="" src={props.src} data-youtubeid="G4doTGQPRPw" data-translatedyoutubeid="G4doTGQPRPw" tabindex="0" allow="autoplay"></iframe>
              </div>
         </section>
     );
