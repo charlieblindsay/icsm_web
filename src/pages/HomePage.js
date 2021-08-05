@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/main.css';
 import '../css/fonts.css';
-import Logo from '../img/icsm-logo.png';
+
 import ButtonPrimary from '../R_components/PrimaryButton';
 
 const overviewListItems = ['Interactive exercises', 'Real world projects','Competitions','Weekly drop-in Q&A sessions'];
@@ -29,19 +29,7 @@ const html = (
         <ButtonPrimary href='/course' buttonText='Find out more' />
     </div>
   </div>
-
-  <footer className="footer">
-    <img src={Logo} alt="" height="60%"/>
-    <hr className='hr-footer'></hr>
-    <ul className="footer__list">
-      <li className="footer__item"><a href="" className="footer__link">icsm coding</a></li>
-      <li className="footer__item"><a href="" className="footer__link">contact</a></li>
-      <li className="footer__item"><a href="" className="footer__link">team</a></li>
-    </ul>
-  </footer>
   
-
-
 </body>
 );
 

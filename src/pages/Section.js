@@ -1,6 +1,5 @@
 import React from 'react';
 import Video from '../R_components/Video';
-import VideoModel from '../models/VideoModel';
 
 const section1Links = [
 ['https://www.youtube.com/embed/gMiq50rNOlA', 'sum to 100'],
@@ -15,7 +14,7 @@ function Section(props) {
     return (
       <div>
         <h3 className='tertiary-title'>Section {props.sectionNumber}</h3>
-        <h2 className='secondary-title margin-small'>{sectionTitles[props.sectionNumber]}</h2>
+        <h2 className='secondary-title margin-small'>{sectionTitles[props.sectionNumber-1]}</h2>
         {videoList}
       </div>
     );
