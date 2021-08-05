@@ -10,10 +10,12 @@ import HomePage from './pages/HomePage';
 import Section from './pages/Section';
 import Course from './pages/Course';
 import Footer from './layout/Footer';
+import NavBar from './layout/NavBar';
 
 function App(){
     return (
         <BrowserRouter>
+        <NavBar />
         <Switch>
             <Route path='/videos/section1'>
                 <Section sectionNumber='1' />

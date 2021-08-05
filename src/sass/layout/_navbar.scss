@@ -1,0 +1,25 @@
+.navbar{
+    height: 3vh; 
+    width: 100%; 
+    background-color: $color-btn-primary;
+
+    &__list{
+        position: absolute;
+        right: 0;
+
+    }
+
+    &__list-item{
+        display: inline-block;
+        padding-right: 1rem;
+    }
+
+    &__list-item a{
+        text-decoration: none;
+        color: $color-white;
+    }
+
+    &__list-item a:hover{
+        color: $color-light-grey;
+    }
+}
