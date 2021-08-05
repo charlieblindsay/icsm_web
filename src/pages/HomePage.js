@@ -3,7 +3,7 @@ import '../css/main.css';
 import '../css/fonts.css';
 import Logo from '../img/icsm-logo.png';
 
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const head = (
   <head>
@@ -35,9 +35,7 @@ const html = (
     <h1 className="secondary-title color-blue margin-big hidden ">
       Autumn Term
     </h1>
-    <Router>
       <Link to='/videos/section1'>Section 1</Link>
-    </Router>
 <a href='#' className='btn btn-primary'>SIGN UP</a>
     </div>
   </header>
