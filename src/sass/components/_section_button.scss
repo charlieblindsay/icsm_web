@@ -1,6 +1,14 @@
 .section-button{
 
+    margin: 1em auto;
+
     background-color: rgba($color-light-grey, 0.2);
+
+    &-grey{
+        background-color: rgba($color-light-grey, 0.6);
+    
+    }
+
 
     &:hover{
         transform: translate(0, -3px);
@@ -17,9 +25,16 @@
         color: $color-black;
     }
 
-    &-grey{
-        background-color: rgba($color-light-grey, 0.6);
+    @include respond(big-desktop){
+        width: 50%;
     }
 
+    @include respond(tab-land){
+        width: 70%;
+    }
+
+    @include respond(tab-port){
+        width: 100%;
+    }
 
 }

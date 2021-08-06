@@ -6,23 +6,26 @@
   box-sizing: inherit;
 }
 
-// this is what 1 em is
-hmtl {
-  font-size: 62.5%; //1 rem = 10px
+body {
+  box-sizing: border-box;
 
-  @include respond(tab-port){
-    font-size: 50%;
+  @include respond(big-desktop){
+    font-size: 90%;
   }
 
   @include respond(tab-land){
-    font-size: 75%; //1 rem is 8px
-  }
-
-  @include respond(big-desktop){
     font-size: 80%;
   }
-}
 
-body {
-  box-sizing: border-box;
+  @include respond(tab-port){
+    font-size: 70%;
+  }
+
+  @include respond(phone){
+    font-size: 50%;
+  }
+
+
+
+
 }

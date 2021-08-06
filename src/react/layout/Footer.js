@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from '../img/icsm-logo.png';
 
-
 function Footer(){
     return (
               <footer className="footer margin-small-above">

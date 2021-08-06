@@ -1,6 +1,4 @@
 import React from 'react';
-import '../css/main.css';
-import '../css/fonts.css';
 
 import ButtonPrimary from '../R_components/PrimaryButton';
 
