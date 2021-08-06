@@ -1,5 +1,5 @@
 .header {
-  height: 100vh;
+  height: 80vh;
   background-image: linear-gradient(
       rgba($color-primary-light, 0.7),
       rgba($color-primary, 0.7)
@@ -13,19 +13,27 @@
 
   &__text-box {
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    font-size: 15px;
   }
+
+  &__text-box__btn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+  }
+
 }
 
 .overview {
-  height: 30vh;
+  height: 40vh;
 
-  @include respond(phone){
-    height: 40vh;
-  }
   position: relative;
   margin-bottom: 10vh;
 
@@ -36,6 +44,7 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    font-size: 1rem;
   }
 
   &__item {

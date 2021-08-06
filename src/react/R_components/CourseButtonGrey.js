@@ -9,7 +9,7 @@ function CourseButtonGrey(props){
                     <div>
                         <h3 className="tertiary-title">{props.date}</h3>
                         <h2 className="secondary-title margin-small">{props.title}</h2>
-                        <h5>{props.description}</h5>
+                        <h4 className='paragraph'>{props.description}</h4>
                         <h3 className="tertiary-title">Coming soon</h3>
                     </div>
                 </div>

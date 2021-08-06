@@ -9,13 +9,13 @@
     &__list{
       list-style: none;
       left: 50%;
-      transform: translate(-50% 0);
     }
 
     &__item{
       padding-right: 2em;
       padding-top:1em;
       display: inline-block;
+      font-size: 1rem;
 
     }
 

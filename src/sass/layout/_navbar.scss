@@ -6,12 +6,13 @@
     &__list{
         position: absolute;
         right: 0;
-
     }
 
     &__list-item{
         display: inline-block;
         padding-right: 1em;
+        font-size: 18px;
+
     }
 
     &__list-item a{

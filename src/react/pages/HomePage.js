@@ -10,10 +10,12 @@ const html = (
   <header className='header'>
     <div className='header__text-box'>
     <h1 className="primary-title color-blue">Python Course</h1>
-    <h1 className="secondary-title color-blue margin-big hidden ">
+    <h1 className="secondary-title color-blue hidden ">
       Autumn Term
     </h1>
-      <ButtonPrimary href='/videos/section1' buttonText='Sign up' />
+    </div>
+    <div className="header__text-box__btn">
+      <ButtonPrimary href='/course' buttonText='Find out more' />
     </div>
   </header>
 
@@ -24,7 +26,7 @@ const html = (
         <ul>
           {overviewList}
         </ul>
-        <ButtonPrimary href='/course' buttonText='Find out more' />
+        <ButtonPrimary href='/course' buttonText='Sign up' />
     </div>
   </div>
   
