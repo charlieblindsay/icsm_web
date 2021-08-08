@@ -25,6 +25,13 @@ base {
   font-weight: 300;
 }
 
+//TEXT ALIGNMENT
+.text-center{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
 // MARGINS
 .margin-big {
   margin-bottom: 50vh;
@@ -47,8 +54,12 @@ base {
 }
 
 //PADDING
-.padding-page{
+.padding-large{
   padding: 2em;
+}
+
+.padding-small{
+  padding: 1em;
 }
 
 //TEXT COLOR

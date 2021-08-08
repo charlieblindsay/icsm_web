@@ -6,11 +6,10 @@ function CourseButtonGrey(props){
             <div className='section-button__link'>
                 <div className="row section-button section-button-grey margin-small">
                     <img src={Thumbnail_1} alt="" width="50%"/>
-                    <div>
+                    <div className='text-center'>
                         <h3 className="tertiary-title">{props.date}</h3>
                         <h2 className="secondary-title margin-small">{props.title}</h2>
                         <h4 className='paragraph'>{props.description}</h4>
-                        <h3 className="tertiary-title">Coming soon</h3>
                     </div>
                 </div>
                 </div>

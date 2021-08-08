@@ -22,6 +22,33 @@ function App(){
             <Route path='/videos/section1'>
                 <Section sectionNumber='1' />
             </Route>
+            <Route path='/videos/section2'>
+                <Section sectionNumber='2' />
+            </Route>
+            <Route path='/videos/section3'>
+                <Section sectionNumber='3' />
+            </Route>
+            <Route path='/videos/section4'>
+                <Section sectionNumber='4' />
+            </Route>
+            <Route path='/videos/section5'>
+                <Section sectionNumber='5' />
+            </Route>
+            <Route path='/videos/section6'>
+                <Section sectionNumber='6' />
+            </Route>
+            <Route path='/videos/section7'>
+                <Section sectionNumber='7' />
+            </Route>
+            <Route path='/videos/section8'>
+                <Section sectionNumber='8' />
+            </Route>
+            <Route path='/videos/section9'>
+                <Section sectionNumber='9' />
+            </Route>
+            <Route path='/videos/section10'>
+                <Section sectionNumber='10' />
+            </Route>
             <Route path='/course'>
                 <Course/>
             </Route>
