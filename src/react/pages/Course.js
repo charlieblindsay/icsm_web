@@ -5,7 +5,7 @@ import CourseButtonGrey from '../R_components/CourseButtonGrey';
 
 const datesList = ['1st Oct', '8 Oct', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum',];
 
-const titleList = ['Variables, printing & conditionals', 'Lists and Dictionaries','Functions','Classes','Error handling & Reading/Writing to files','Data Visualization','Undecided','APIs','Undecided','Undecided'];
+const titleList = ['Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Oriented Programming','Error handling & Reading/Writing to files','Data Visualization','Undecided','APIs','Undecided','Undecided'];
 
 const descriptionList = ['Introducing python and the basics of programming', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
 
