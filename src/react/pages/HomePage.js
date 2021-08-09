@@ -22,7 +22,7 @@ const html = (
   <div className="overview">
     <div className='overview__text-box'>
         <h2 className='secondary-title'>10 Week Course</h2>
-        <h3 className='tertiary-title margin-small'>Build you knowledge from the basics</h3>
+        <h3 className='tertiary-title margin-small'>Build your knowledge from the basics</h3>
         <ul>
           {overviewList}
         </ul>
