@@ -113,5 +113,6 @@ const section10Links = [
   [defaultLink, ''],
 ]
 
-export const sectionTitles = ['Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Error handling & Reading/Writing to files','Data Visualization','Undecided','APIs','Undecided','Undecided'];
+export const sectionTitles = ['Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Reading & Writing to text files', 'Error handling & exceptions','Data Visualization','Sending automated emails','APIs','Undecided'];
 export const sectionLinksList = [section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links, section9Links, section10Links]
+export const descriptionList = ['Introducing python and the basics of programming', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
