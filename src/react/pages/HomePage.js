@@ -56,7 +56,8 @@ const html = (
   </div>
   <form action="https://app.us5.list-manage.com/subscribe/post?u=2aac43c67462a9b414ade9919&amp;id=9b54b7e643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div><input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" className="btn btn-primary" /></div>
-        </form>
+  </form>
+
 
   
 </body>
