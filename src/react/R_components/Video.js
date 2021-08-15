@@ -9,6 +9,7 @@ const Video = props => {
             </div>
             <div className='video-description'>
                 <h3 className='tertiary-title'>Exercise</h3>
+                
             </div>
         </div>
     );

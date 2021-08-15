@@ -30,10 +30,14 @@
 }
 
 .overview {
-  height: 25em;
+  height: 50em;
 
   position: relative;
-  margin-bottom: 10vh;
+
+  bottom: 10em;
+
+  clip-path: polygon(0% 20%, 100% 0, 100% 80%, 0 100%);
+  background-color: rgba($color-dark-grey, 0.2);
 
   &__text-box {
     position: absolute;
@@ -51,9 +55,51 @@
   }
 }
 
-.structure {
-  &__course-buttons {
+.content{
+  height: 90em;
+  position: relative;
+
+  &__text-box {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 50%;
     text-align: center;
-    margin: 1em 1em;
+    transform: translate(-50%, -50%);
+  }
+
+  &__item {
+    display: inline-block;
+    width: 50%;
+    background-color: rgba($color-primary, 0.7);
+    margin: 0.75em;
+    padding: 0.5rem;
+    list-style-type: none;
+    font-size: 2em;
+    color: $color-white;
+  }
+}
+
+.email{
+  height: 25em;
+  position: relative;
+
+  clip-path: polygon(0% 20%, 100% 0, 100% 80%, 0 100%);
+  background-color: rgba($color-dark-grey, 0.2);
+
+  &__text-box {
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  &__span1{
+    font-style: italic;
+    padding-right: 0.5em;
+    font-weight: 500;
+    font-size: 3em;
   }
 }
