@@ -1,5 +1,5 @@
 .header {
-  height: 80vh;
+  height: 50em;
   background-image: linear-gradient(
       rgba($color-primary-light, 0.7),
       rgba($color-primary, 0.7)
@@ -13,26 +13,24 @@
 
   &__text-box {
     position: absolute;
-    top: 20%;
+    top: 15em;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    font-size: 15px;
   }
 
   &__text-box__btn {
     position: absolute;
-    top: 60%;
+    top: 40em;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    font-size: 15px;
   }
 
 }
 
 .overview {
-  height: 40vh;
+  height: 25em;
 
   position: relative;
   margin-bottom: 10vh;
@@ -44,27 +42,18 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    font-size: 1rem;
   }
 
   &__item {
     padding: 0.5rem;
     list-style-type: none;
-    font-size: 1.2rem;
+    font-size: 1.5em;
   }
 }
 
 .structure {
   &__course-buttons {
     text-align: center;
-    margin: 10px 10px;
+    margin: 1em 1em;
   }
-}
-
-.signup {
-  background-color: $color-primary-light;
-  height: 60vh;
-  padding-top: 20vh;
-
-  clip-path: polygon(0 20vh, 100% 0, 100% 100%, 0 100%);
 }

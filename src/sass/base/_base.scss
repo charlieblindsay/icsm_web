@@ -4,10 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+
 }
 
 body {
   box-sizing: border-box;
+
 
   @include respond(big-desktop){
     font-size: 90%;
@@ -18,14 +20,10 @@ body {
   }
 
   @include respond(tab-port){
-    font-size: 70%;
+    font-size: 62.5%; //defines what 1rem is. Have to use em to change font size relative to this.
   }
 
   @include respond(phone){
     font-size: 50%;
   }
-
-
-
-
 }
