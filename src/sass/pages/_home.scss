@@ -1,5 +1,5 @@
 .header {
-  height: 80vh;
+  height: 60em;
   background-image: linear-gradient(
       rgba($color-primary-light, 0.7),
       rgba($color-primary, 0.7)
@@ -30,13 +30,13 @@
 }
 
 .overview {
-  height: 60vh;
+  height: 60em;
 
   position: relative;
 
-  bottom: 14em;
+  bottom: 12em;
 
-  clip-path: polygon(0% 25%, 100% 0, 100% 75%, 0 100%);
+  clip-path: polygon(0% 20%, 100% 0, 100% 80%, 0 100%);
   background-color: rgba($color-dark-grey, 0.2);
 
   &__text-box {
@@ -56,7 +56,7 @@
 }
 
 .content{
-  height: 100vh;
+  height: 80em;
   position: relative;
 
   &__text-box {
@@ -81,10 +81,10 @@
 }
 
 .email{
-  height: 25vh;
+  height: 25em;
   position: relative;
 
-  clip-path: polygon(0% 25%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0% 20%, 100% 0, 100% 100%, 0 100%);
   background-color: rgba($color-primary, 0.4);
 
   &__text-box {

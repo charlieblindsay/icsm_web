@@ -32,4 +32,10 @@
     background-color: $color-primary;
     color: $color-white;
   }
+
+  &-form{
+    position: absolute;
+    top: 110em;
+    left: 50%;
+  }
 }
