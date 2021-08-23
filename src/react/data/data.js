@@ -15,14 +15,15 @@ const section1Links = [
 [defaultLink, 'Leap year challenge solution'],
 ];
 
+
 const section2Links = [
-  [defaultLink, 'Introduction to Section 2'],
-  [defaultLink, 'Concept of Lists'],
-  [defaultLink, 'Accessing elements in a list'],
-  [defaultLink, 'Useful list methods'],
-  [defaultLink, 'Concept of for loops'],
-  [defaultLink, 'Printing elements of a list with a for loop'],
-  [defaultLink, 'Finding sum of elements in a list with a for loop'],
+  ['https://www.youtube.com/embed/-V2zUoSRWDk', 'Introduction to Section 2'],
+  ["https://www.youtube.com/embed/drfGKfe-uYs", 'Accessing Individual Elements'],
+  ["https://www.youtube.com/embed/QXjSdwm0Uhk", 'Introduction to list slicing'],
+  ["https://www.youtube.com/embed/e8SlRbfJaFA", 'List slicing examples'],
+  ["https://www.youtube.com/embed/ohpliHaObd4", 'List slicing exercises'],
+  ["https://www.youtube.com/embed/kJmxQWddyYI", 'List methods'],
+  ['https://www.youtube.com/embed/eZx6lDbfqM4', 'Introduction to for loops'],
   [defaultLink, 'Solution to multiplication challenge'],
   [defaultLink, 'Using the range function with for loops'],
   [defaultLink, 'Sum to even numbers from 0 to 100 challenge solution'],
@@ -72,21 +73,24 @@ const section6Links = [
 ]
 
 const section7Links = [
-  [defaultLink, 'Introduction to Section 7'],
-  [defaultLink, 'Downloading alcohol data and moving file to correct folder'],
-  [defaultLink, 'Displaying data in jupyter notebook'],
-  [defaultLink, 'Pandas DataFrame and Series'],
-  [defaultLink, 'Smaller DataFrame Example'],
-  [defaultLink, 'Cleaning data: Changing column names'],
-  [defaultLink, 'Cleaning data: Removing unnecessary data'],
-  [defaultLink, 'Accessing a specific row in the alcohol dataframe as a list'],
-  [defaultLink, 'Plotting a bar graph with matplotlib and numpy'],
-  [defaultLink, 'Challenge: How global alcohol consumption has varied'],
-  [defaultLink, 'Plotting pie chart to show share of alcohol consumption between different types'],
+  ["https://www.youtube.com/embed/qBf4tCOx5W4", 'Introduction to Section 7'],
+  [defaultLink, 'Introduction to pandas DataFrame object'],
+  ["https://www.youtube.com/embed/eEjolHLBMag", 'Blood 1: Downloading data from WHO website'],
+  ["https://www.youtube.com/embed/OMgtY46EVKk", 'Blood 2: Installing/importing python libraries'],
+  ["https://www.youtube.com/embed/GKMegsLOs9M", 'Blood 3: pd.read_csv()'],
+  ["https://www.youtube.com/embed/kn13o8FexXs", 'Blood 4: Renaming DataFrame columns'],
+  ["https://www.youtube.com/embed/eV0rD90-TrY", 'Blood 5: Removing rows and df.set_index()'],
+  ["https://www.youtube.com/embed/BlEd2fLuuRc", 'Blood 6: .apply() to change values in a DataFrame'],
+  ["https://www.youtube.com/embed/IIOuweiAt88", 'Blood 7: Creating smaller pd DataFrame'],
+  [defaultLink, 'Interlude: Google & Stack Overflow'],
+  [defaultLink, 'Blood 8: something'],
+  ["https://www.youtube.com/embed/216_nIoF3n4", 'Blood 9: Data visualization'],
   [defaultLink, 'Introduction to blood pressure data & columns challenge'],
   [defaultLink, 'Data Cleaning: Altering values in a dataframe'],
   [defaultLink, 'Challenge: Data Visualization'],
 ]
+
+
 
 const section8Links = [
   [defaultLink, 'Introduction to Section 8'],
