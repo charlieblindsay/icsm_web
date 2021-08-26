@@ -21,9 +21,6 @@ const html = (
   <header className='header'>
     <div className='header__text-box'>
     <h1 className="primary-title color-blue">Python Course</h1>
-    <h1 className="secondary-title color-blue hidden ">
-      Autumn Term
-    </h1>
     </div>
     <div className="header__text-box__btn">
       <ButtonPrimary href='/course' buttonText='Find out more' />

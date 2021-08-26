@@ -13,7 +13,7 @@
 
   &__text-box {
     position: absolute;
-    top: 20em;
+    top: 15em;
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
@@ -46,12 +46,13 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+
   }
 
   &__item {
-    padding: 0.5rem;
+    padding: 1rem;
     list-style-type: none;
-    font-size: 1.5em;
+    font-size: 3em;
   }
 }
 

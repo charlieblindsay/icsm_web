@@ -1,16 +1,13 @@
 import React from 'react';
 import CourseButton from '../R_components/CourseButton';
 import CourseButtonGrey from '../R_components/CourseButtonGrey';
-import {descriptionList, sectionTitles} from '../data/data'
-
-const datesList = ['1st Oct', '8 Oct', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum',];
+import {descriptionList, sectionTitles, datesList, availableList} from '../data/data'
 
 
-const availableList = [1,1,1,1,1,1,1,1,1,1];
 const courseButtonsList = datesList.map(function(e, i){
-    let section_number_and_date = 'Section ' + (i + 1) + ' - ' + datesList[i];
+    let section_number_and_date = 'Section ' + (i) + ' - ' + datesList[i];
     if(availableList[i] == 1){
-        return <CourseButton section_number={i + 1} date={section_number_and_date} title={sectionTitles[i]} description={descriptionList[i]} />;
+        return <CourseButton section_number={i} date={section_number_and_date} title={sectionTitles[i]} description={descriptionList[i]} />;
     }else{
         return  <CourseButtonGrey date={section_number_and_date} title={sectionTitles[i]} description={descriptionList[i]} />;
     }

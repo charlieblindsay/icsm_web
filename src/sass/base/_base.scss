@@ -20,10 +20,10 @@ body {
   }
 
   @include respond(tab-port){
-    font-size: 62.5%; //defines what 1rem is. Have to use em to change font size relative to this.
+    font-size: 70%; //defines what 1rem is. Have to use em to change font size relative to this.
   }
 
   @include respond(phone){
-    font-size: 50%;
+    font-size: 70%;
   }
 }

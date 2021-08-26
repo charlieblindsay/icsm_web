@@ -1,4 +1,9 @@
 .navbar{
+
+    top: 0px;
+    position: sticky;
+    z-index: 10;
+
     height: 1.5em; 
     width: 100%; 
     background-color: $color-btn-primary;

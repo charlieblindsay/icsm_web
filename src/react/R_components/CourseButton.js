@@ -8,7 +8,7 @@ function CourseButton(props){
     const navigation_link = 'videos/section' + props.section_number;
     return (
             <Link to={navigation_link} className='section-button__link'>
-                <div className="row section-button margin-small">
+                <div className="row section-button section-button-white margin-small">
                     <img src={Thumbnail_1} alt="" width="50%"/>
                     <div className='text-center'>
                         <h3 className="tertiary-title">{props.date}</h3>

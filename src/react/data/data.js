@@ -1,4 +1,9 @@
-const defaultLink = "https://www.youtube.com/embed/17NMhswEpjU";
+const defaultLink = "17NMhswEpjU";
+
+const section0Links = [
+  ['OLAu_E5pd5Q', 'How to fork a repl?', 'https://replit.com/@CodingICSM/List-comprehension', 'Click here to practise forking a repl'],
+  ['dJoxWue3No0', 'Downloading files from github', 'https://github.com/icsm-coding/Python-Course', 'Click here to go to our github page']
+]
 
 const section1Links = [
 [defaultLink, 'Introduction to Section 1'],
@@ -17,16 +22,15 @@ const section1Links = [
 
 
 const section2Links = [
-  ['https://www.youtube.com/embed/-V2zUoSRWDk', 'Introduction to Section 2'],
-  ["https://www.youtube.com/embed/drfGKfe-uYs", 'Accessing Individual Elements'],
-  ["https://www.youtube.com/embed/QXjSdwm0Uhk", 'Introduction to list slicing'],
-  ["https://www.youtube.com/embed/e8SlRbfJaFA", 'List slicing examples'],
-  ["https://www.youtube.com/embed/ohpliHaObd4", 'List slicing exercises'],
-  ["https://www.youtube.com/embed/kJmxQWddyYI", 'List methods'],
-  ['https://www.youtube.com/embed/eZx6lDbfqM4', 'Introduction to for loops'],
-  [defaultLink, 'Solution to multiplication challenge'],
-  [defaultLink, 'Using the range function with for loops'],
-  [defaultLink, 'Sum to even numbers from 0 to 100 challenge solution'],
+  ['-V2zUoSRWDk', 'Introduction to Section 2'],
+  ["3ZDPKyB2eR0", 'Accessing Individual Elements', 'https://replit.com/@CodingICSM/Accessing-Individual-Elements#main.py', 'Repl Exercise'],
+  ["QXjSdwm0Uhk", 'Introduction to list slicing'],
+  ["e8SlRbfJaFA", 'List slicing examples'],
+  ["ohpliHaObd4", 'List slicing exercises', 'https://replit.com/@CodingICSM/List-Slicing#main.py', 'Repl Exercise'],
+  ["kJmxQWddyYI", 'List methods'],
+  ['eZx6lDbfqM4', 'Introduction to for loops', 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'Repl Exercise'],
+  ['gYKXLI_32wM', 'Using the range() function with for loops', 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'Repl Exercise'],
+  ['ALVtVlyZR1M', 'List comprehension'],
   [defaultLink, 'Concept of dictionaries'],
   [defaultLink, 'Difference between dictionaries and lists'],
   [defaultLink, 'Retreiving, adding and removing data from a dictionary'],
@@ -63,28 +67,18 @@ const section5Links = [
 ]
 
 const section6Links = [
-  [defaultLink, 'Introduction to Section 6'],
-  [defaultLink, 'Catching different types of exceptions'],
-  [defaultLink, 'Raising your own exceptions'],
-  [defaultLink, 'Challenge: Exception Handling'],
-  [defaultLink, 'File not found exception'],
-  [defaultLink, 'Organs guessing game challenge'],
-  [defaultLink, 'Organs guessing game solution'],
-]
-
-const section7Links = [
-  ["https://www.youtube.com/embed/qBf4tCOx5W4", 'Introduction to Section 7'],
+  ["qBf4tCOx5W4", 'Introduction to Section 6'],
   [defaultLink, 'Introduction to pandas DataFrame object'],
-  ["https://www.youtube.com/embed/eEjolHLBMag", 'Blood 1: Downloading data from WHO website'],
-  ["https://www.youtube.com/embed/OMgtY46EVKk", 'Blood 2: Installing/importing python libraries'],
-  ["https://www.youtube.com/embed/GKMegsLOs9M", 'Blood 3: pd.read_csv()'],
-  ["https://www.youtube.com/embed/kn13o8FexXs", 'Blood 4: Renaming DataFrame columns'],
-  ["https://www.youtube.com/embed/eV0rD90-TrY", 'Blood 5: Removing rows and df.set_index()'],
-  ["https://www.youtube.com/embed/BlEd2fLuuRc", 'Blood 6: .apply() to change values in a DataFrame'],
-  ["https://www.youtube.com/embed/IIOuweiAt88", 'Blood 7: Creating smaller pd DataFrame'],
+  ["eEjolHLBMag", 'Blood 1: Downloading data from WHO website'],
+  ["OMgtY46EVKk", 'Blood 2: Installing/importing python libraries'],
+  ["GKMegsLOs9M", 'Blood 3: pd.read_csv()'],
+  ["kn13o8FexXs", 'Blood 4: Renaming DataFrame columns'],
+  ["eV0rD90-TrY", 'Blood 5: Removing rows and df.set_index()'],
+  ["BlEd2fLuuRc", 'Blood 6: .apply() to change values in a DataFrame'],
+  ["IIOuweiAt88", 'Blood 7: Creating smaller pd DataFrame'],
   [defaultLink, 'Interlude: Google & Stack Overflow'],
   [defaultLink, 'Blood 8: something'],
-  ["https://www.youtube.com/embed/216_nIoF3n4", 'Blood 9: Data visualization'],
+  ["216_nIoF3n4", 'Blood 9: Data visualization'],
   [defaultLink, 'Introduction to blood pressure data & columns challenge'],
   [defaultLink, 'Data Cleaning: Altering values in a dataframe'],
   [defaultLink, 'Challenge: Data Visualization'],
@@ -92,12 +86,12 @@ const section7Links = [
 
 
 
-const section8Links = [
+const section7Links = [
   [defaultLink, 'Introduction to Section 8'],
   [defaultLink, ''],
 ]
 
-const section9Links = [
+const section8Links = [
   [defaultLink, 'Introduction to Section 9'],
   [defaultLink, 'Concept of Application Programming Interfaces (APIs)'],
   [defaultLink, 'Kanye: quote generator in browser'],
@@ -112,11 +106,10 @@ const section9Links = [
   [defaultLink, 'Nutritionix 5'],
 ]
 
-const section10Links = [
-  [defaultLink, 'Introduction to Section 10'],
-  [defaultLink, ''],
-]
 
-export const sectionTitles = ['Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Reading & Writing to text files', 'Error handling & exceptions','Data Visualization','Sending automated emails','APIs','Undecided'];
-export const sectionLinksList = [section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links, section9Links, section10Links]
-export const descriptionList = ['Introducing python and the basics of programming', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
+export const sectionTitles = ['Helpful Videos', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Reading & Writing to text files', 'Data Visualization','Sending automated emails','APIs','Undecided'];
+export const sectionLinksList = [section0Links, section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links]
+export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
+
+export const datesList = ['1st Oct', '8 Oct', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum',];
+export const availableList = [1,1,1,1,1,1,1,1,1,1];

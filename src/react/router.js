@@ -19,6 +19,9 @@ function App(){
         <ScrollToTop />
         <NavBar />
         <Switch>
+            <Route path='/videos/section0'>
+                <Section sectionNumber='0' />
+            </Route>
             <Route path='/videos/section1'>
                 <Section sectionNumber='1' />
             </Route>
@@ -42,12 +45,6 @@ function App(){
             </Route>
             <Route path='/videos/section8'>
                 <Section sectionNumber='8' />
-            </Route>
-            <Route path='/videos/section9'>
-                <Section sectionNumber='9' />
-            </Route>
-            <Route path='/videos/section10'>
-                <Section sectionNumber='10' />
             </Route>
             <Route path='/course'>
                 <Course/>

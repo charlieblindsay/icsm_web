@@ -10,6 +10,7 @@ function CourseButtonGrey(props){
                         <h3 className="tertiary-title">{props.date}</h3>
                         <h2 className="secondary-title margin-small">{props.title}</h2>
                         <h4 className='paragraph'>{props.description}</h4>
+                        <h1>Currently Unavailable</h1>
                     </div>
                 </div>
                 </div>
