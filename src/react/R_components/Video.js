@@ -6,7 +6,7 @@ const Video = props => {
 
     if (props.external_link_url != null){
         return (
-            <div className='video'>
+        <div className='video' id={props.src}>
             <h3 className="tertiary-title">{props.videoTitle}</h3>
             <div className="iframe-container">
                 <iframe type="text/html" frameborder="0" allowfullscreen="" src={srcFull} gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
@@ -20,7 +20,7 @@ const Video = props => {
     }
     else{
         return(
-            <div className='video'>
+        <div className='video' id={props.src}>
             <h3 className="tertiary-title">{props.videoTitle}</h3>
             <div className="iframe-container">
                 <iframe type="text/html" frameborder="0" allowfullscreen="" src={srcFull} gesture="media"  allow="encrypted-media" allowfullscreen></iframe>

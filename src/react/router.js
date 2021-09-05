@@ -9,7 +9,6 @@ import {
 import HomePage from './pages/HomePage';
 import Section from './pages/Section';
 import Course from './pages/Course';
-import Footer from './layout/Footer';
 import NavBar from './layout/NavBar';
 import ScrollToTop from "./hooks/ScrollToTop";
 
@@ -53,7 +52,6 @@ function App(){
                 <HomePage />
             </Route>
         </Switch>
-        <Footer />
         </BrowserRouter>
 
     )

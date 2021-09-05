@@ -2,6 +2,7 @@ import React from 'react';
 
 import ButtonPrimary from '../R_components/PrimaryButton';
 import {sectionTitles} from '../data/data';
+import Footer from '../layout/Footer';
 
 const overviewListItems = ['Interactive exercises', 'Real world projects','Competitions','Weekly drop-in Q&A sessions'];
 const overviewList = overviewListItems.map(e => <li className='overview__item'>{e}</li>)
@@ -54,10 +55,9 @@ const html = (
   <form action="https://app.us5.list-manage.com/subscribe/post?u=2aac43c67462a9b414ade9919&amp;id=9b54b7e643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-primary btn-form" /></div>
   </form>
-
-
-  
+  <Footer/>
 </body>
+
 );
 
 function HomePage() {

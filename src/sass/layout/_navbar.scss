@@ -4,7 +4,7 @@
     position: sticky;
     z-index: 10;
 
-    height: 1.5em; 
+    height: 3em; 
     width: 100%; 
     background-color: $color-btn-primary;
 
@@ -15,8 +15,9 @@
 
     &__list-item{
         display: inline-block;
+        padding-top: 0.25em;
         padding-right: 1em;
-        font-size: 1em;
+        font-size: 2em;
 
     }
 
@@ -27,5 +28,9 @@
 
     &__list-item a:hover{
         color: $color-light-grey;
+    }
+
+    &--hidden{
+        top: -3em;
     }
 }
