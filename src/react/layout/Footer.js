@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../img/icsm-logo.png';
+import {Link} from 'react-router-dom';
 
 function Footer(){
     return (
@@ -9,7 +10,7 @@ function Footer(){
                 <ul className="footer__list">
                     <li className="footer__item"><a href="" className="footer__link">icsm coding</a></li>
                     <li className="footer__item"><a href="" className="footer__link">contact</a></li>
-                    <li className="footer__item"><a href="" className="footer__link">team</a></li>
+                    <li className="footer__item"><Link className="footer__link" to='/team'>Team</Link></li>
                 </ul>
             </footer>
     );

@@ -1,0 +1,21 @@
+.photo-section{
+    position: relative;
+    top: 2em;
+    left: 50%;
+    width: 80%;
+    transform: translateX(-50%);
+    justify-content: center;
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-container{
+    margin: 1em;
+    width: 15em;
+    height: 15em;
+    text-align: center;
+    background-color: $color-light-grey;
+    border-radius: 50%;
+}

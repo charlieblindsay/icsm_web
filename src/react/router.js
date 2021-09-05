@@ -9,6 +9,7 @@ import {
 import HomePage from './pages/HomePage';
 import Section from './pages/Section';
 import Course from './pages/Course';
+import Team from './pages/Team';
 import NavBar from './layout/NavBar';
 import ScrollToTop from "./hooks/ScrollToTop";
 
@@ -47,6 +48,9 @@ function App(){
             </Route>
             <Route path='/course'>
                 <Course/>
+            </Route>
+            <Route path='/team'>
+                <Team/>
             </Route>
             <Route path='/'>
                 <HomePage />
