@@ -52,9 +52,14 @@ const html = (
       <span className='email__span1'>Subscribe</span><span className='paragraph'>to our mailing list so that you never miss when a new section has been released!</span>
     </div>
   </div>
-  <form action="https://app.us5.list-manage.com/subscribe/post?u=2aac43c67462a9b414ade9919&amp;id=9b54b7e643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+  {/* https://mailchi.mp/e913da8be832/icsm-coding-python-course */}
+  <a className="btn btn-primary btn-form" href="https://mailchi.mp/e913da8be832/icsm-coding-python-course">Subscribe</a>
+  {/* <form action="https://app.us5.list-manage.com/subscribe/post?u=2aac43c67462a9b414ade9919&amp;id=9b54b7e643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-primary btn-form" /></div>
-  </form>
+  </form> */}
+  {/* <form action="https://app.us5.list-manage.com/subscribe/post?u=2aac43c67462a9b414ade9919&amp;id=9b54b7e643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-primary btn-form" /></div>
+  </form> */}
   <Footer/>
 </body>
 
