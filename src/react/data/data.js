@@ -67,21 +67,26 @@ const section5Links = [
 ]
 
 const section6Links = [
-  ["qBf4tCOx5W4", 'Introduction to Section 6'],
-  [defaultLink, 'Introduction to pandas DataFrame object'],
-  ["eEjolHLBMag", 'Blood 1: Downloading data from WHO website'],
-  ["OMgtY46EVKk", 'Blood 2: Installing/importing python libraries'],
-  ["GKMegsLOs9M", 'Blood 3: pd.read_csv()'],
-  ["kn13o8FexXs", 'Blood 4: Renaming DataFrame columns'],
-  ["eV0rD90-TrY", 'Blood 5: Removing rows and df.set_index()'],
-  ["BlEd2fLuuRc", 'Blood 6: .apply() to change values in a DataFrame'],
-  ["IIOuweiAt88", 'Blood 7: Creating smaller pd DataFrame'],
-  [defaultLink, 'Interlude: Google & Stack Overflow'],
-  [defaultLink, 'Blood 8: something'],
-  ["216_nIoF3n4", 'Blood 9: Data visualization'],
-  [defaultLink, 'Introduction to blood pressure data & columns challenge'],
-  [defaultLink, 'Data Cleaning: Altering values in a dataframe'],
-  [defaultLink, 'Challenge: Data Visualization'],
+  ["04Di068aygI", 'Introduction to Section 6'],
+  ['fuADC_kmOaQ', 'Introduction to pandas DataFrame object'],
+  ["vm3PCIXZDmY", 'Creating a pandas DataFrame object with its constructor'],
+  ["9aPVz_5KZJc", 'pandas DataFrame attributes'],
+  ["Acm2B_IsCBQ", 'df.iloc'],
+  ["9UPIdFcH3pM", 'df.loc'],
+  ["eY4YPUSY4G8", 'Accessing columns in a DataFrame'],
+  ["jEVkk9DOi_Q", 'Accessing rows in a DataFrame based on the values of columns'],
+  ["zJnQmrZIJ_Q", 'Blood Pressure 1: Installing and importing libraries'],
+  ['vWlh_nq8DZA', 'Blood Pressure 2: Downloading csv file'],
+  ['ICekrRHm5wE', 'Blood Pressure 3: pd.read_csv'],
+  ["AkCYRHMX6lI", 'Blood Pressure 4: Renaming columns'],
+  ['2htd7ttyg', 'Blood Pressure 5: Removing rows challenge'],
+  ['6hDhs4gBsMg', 'Blood Pressure 6: Setting index column'],
+  ['8yTbflmVpLQ','Blood Pressure 7: Removing the blood pressure range values'],
+  ['ZktnVPaiwDg', 'Blood Pressure 8: Creating smaller DataFrame'],
+['OF2C5BRLoA','Blood Pressure 9: Converting blood pressure data from strings to floats'],
+['GUoF08r8xtw','Blood Pressure 10: Transposing and reversing the data for seaborn'],
+['C5UHJ2Qkt-g', 'Blood Pressure 11: Using seaborn to VISUALIZE DATA'],
+['Vaf4DPudA-Q','Blood Pressure 12: plt.xticks']
 ]
 
 
