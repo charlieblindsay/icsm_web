@@ -117,4 +117,4 @@ export const sectionLinksList = [section0Links, section1Links, section2Links, se
 export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
 
 export const datesList = ['1st Oct', '8 Oct', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum',];
-export const availableList = [1,1,1,1,1,1,1,1,1,1];
+export const availableList = [0,0,0,0,0,0,0,0,0,0];
