@@ -42,6 +42,7 @@ export default class NavBar extends Component {
             <ul className="navbar__list">
                 <li className="navbar__list-item"><Link to='/'>Home</Link></li>
                 <li className="navbar__list-item"><Link to='/course'>Course</Link></li>
+                <li className="navbar__list-item"><a href='https://mailchi.mp/e913da8be832/icsm-coding-python-course'>Subscribe</a></li>
             </ul>
         </div>
     );
