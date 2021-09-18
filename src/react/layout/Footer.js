@@ -8,7 +8,7 @@ function Footer(){
                 <img src={Logo} alt="" height="60%"/>
                 <hr className='hr-footer'></hr>
                 <ul className="footer__list">
-                    <li className="footer__item"><a href="" className="footer__link">icsm coding</a></li>
+                    <li className="footer__item"><a href="https://www.union.ic.ac.uk/medic/coding/" className="footer__link">icsm coding</a></li>
                     <li className="footer__item"><a href="" className="footer__link">contact</a></li>
                     <li className="footer__item"><Link className="footer__link" to='/team'>Team</Link></li>
                 </ul>
