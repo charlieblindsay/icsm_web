@@ -5,7 +5,7 @@ import {descriptionList, sectionTitles, datesList, availableList} from '../data/
 
 
 const courseButtonsList = datesList.map(function(e, i){
-    let section_number_and_date = 'Section ' + (i) + ' - ' + datesList[i];
+    let section_number_and_date = 'Week ' + (i) + ' - ' + datesList[i];
     if(availableList[i] == 1){
         return <CourseButton section_number={i} date={section_number_and_date} title={sectionTitles[i]} description={descriptionList[i]} />;
     }else{
@@ -17,7 +17,7 @@ const courseButtonsList = datesList.map(function(e, i){
 function Course(){
     return (
         <div className='padding-large'>
-            <h2 className="secondary-title margin-small">Python Course</h2>
+            <h2 className="primary-title margin-small">Python Course</h2>
             {courseButtonsList}
         </div>
     );

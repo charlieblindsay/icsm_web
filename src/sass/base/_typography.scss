@@ -19,6 +19,19 @@ base {
   font-weight: 600;
 }
 
+.section-primary-title {
+  font-size: 3em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+
+.video-section-title {
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
 .secondary-title {
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
@@ -37,11 +50,28 @@ base {
   font-weight: 300;
 }
 
+//COURSE
+.course-date-text{
+  font-weight: 200;
+}
+
+.course-description-text{
+  font-weight: 200;
+}
+
+//SECTION
+.video-section-link{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: $color-primary;
+}
+
 //TEXT ALIGNMENT
 .text-center{
-  text-align: center;
+  text-align: left;
   width: 100%;
-  margin: 0 auto;
+  margin: 1em;
 }
 
 // MARGINS

@@ -2,10 +2,11 @@
 
     margin: 1em auto;
 
-    background-color: rgba($color-black, 0.05);
+    background-color: rgba($color-primary, 0.05);
 
     &-grey{
-        background-color: rgba($color-black, 0.3);
+        opacity: 0.3;
+        background-color: rgba($color-btn-primary, 0.3);
     }
 
     &-white{
