@@ -2,26 +2,38 @@ base {
   line-height: 1.7;
   color: $color-white;
   font-weight: 400;
-  font-family: "Nunito";
+  font-family: 'Montserrat', sans-serif;
+  /*font-family: "Nunito";*/
 }
 
 .primary-title {
-  font-weight: 700;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
   font-size: 6em;
+  color: $color-btn-primary;
+}
+
+.sub-primary-title {
+  font-size: 5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .secondary-title {
   font-size: 2em;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 .tertiary-title {
-  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8em;
   font-weight: 300;
 }
 
 .paragraph{
-  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.9em;
   font-weight: 300;
 }
 
@@ -73,7 +85,7 @@ base {
   margin-right: auto;
   margin-left: auto;
   width: 60%;
-  border: 0.1em solid $color-white;
+  border: 1px solid $color-primary;
 }
 
 //HIDDEN CLASS FOR RESPONSIVENESS
