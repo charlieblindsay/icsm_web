@@ -129,7 +129,7 @@ export const descriptionList = ['Videos you should watch before starting the cou
 
 export const datesList = ['1st Oct', '8 Oct', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum',];
 
-// export const availableList = [1,0,0,0,0,0,0,0,0,0];
+export const availableList = [1,0,0,0,0,0,0,0,0,0];
 
-export const availableList = [1,1,1,1,1,1,1,1,1,1];
+// export const availableList = [1,1,1,1,1,1,1,1,1,1];
 
