@@ -108,28 +108,24 @@ const section7Links = [
 ]
 
 const section8Links = [
-  [defaultLink, 'Introduction to Section 9'],
-  [defaultLink, 'Concept of Application Programming Interfaces (APIs)'],
-  [defaultLink, 'Kanye: quote generator in browser'],
-  [defaultLink, 'Kanye: Making a basic get request in PyCharm'],
-  [defaultLink, 'Agify: Get requests with parameters'],
-  [defaultLink, 'Agify in Pycharm'],
-  [defaultLink, 'Challenge: Genderize'],
-  [defaultLink, 'Nutritionix 1'],
-  [defaultLink, 'Nutritionix 2'],
-  [defaultLink, 'Nutritionix 3'],
-  [defaultLink, 'Nutritionix 4'],
-  [defaultLink, 'Nutritionix 5'],
+  ['tAZuSLJWqGc', '1. Section 6 Introduction'],
+  ['wonM-xDJRZs', '2. How to send an email with python (Miyu)'],
+  ['fS1MYI283Ko', '3. Datetime library (Miyu)'],
+  ['VGeKTmF2hyY', '4. Automation with python anywhere'],
+  ['ij3vt6qLlD4', '5. Patient email CHALLENGE'],
+  ['DET0G4x8trI', '6. CHALLENGE: Compare date function'],
+  ['9vfcv-aZJ20', '7. CHALLENGE: Create message function'],
+  ['LplAdaLbp4w', '8. CHALLENGE: Send email function'],
+  ['4eO5S3p4W3I', '9. CHALLENGE: Combining functions'],
 ]
 
 
-export const sectionTitles = ['Helpful Videos', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Reading & Writing to text files', 'Data Visualization','Sending automated emails','APIs','Undecided'];
+export const sectionTitles = ['Helpful Videos', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Reading & Writing to text files', 'Sending automated emails','Data Visualization','APIs'];
 export const sectionLinksList = [section0Links, section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links]
 export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
 
-export const datesList = ['1st Oct', '8 Oct', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum',];
+export const datesList = ['18th Oct', '25th Oct', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec','13 Dec'];
 
-export const availableList = [1,0,0,0,0,0,0,0,0,0];
+export const availableList = [1,0,0,0,0,0,0,0,0];
 
-// export const availableList = [1,1,1,1,1,1,1,1,1,1];
-
+// export const availableList = [1,1,1,1,1,1,1,1,1];
