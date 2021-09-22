@@ -11,8 +11,9 @@ function Section(props) {
           <h2 className="secondary-title margin-small">Table of Contents</h2>
           {srcList}
         </div>
-        <h3 className='primary-title'>Section {props.sectionNumber}</h3>
-        <h2 className='secondary-title margin-small'>{sectionTitles[props.sectionNumber]}</h2>
+        <a href="/course" className="video-section-link"> &lt;&ensp;Back</a>
+        <h3 className='primary-title'>Week {props.sectionNumber}</h3>
+        <h2 className='section-primary-title margin-small'>{sectionTitles[props.sectionNumber]}</h2>
         {videoList}
       </div>
     );

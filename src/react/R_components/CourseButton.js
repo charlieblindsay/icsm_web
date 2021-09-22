@@ -9,11 +9,11 @@ function CourseButton(props){
     return (
             <Link to={navigation_link} className='section-button__link'>
                 <div className="row section-button section-button-white margin-small">
-                    <img src={Thumbnail_1} alt="" width="50%"/>
+                    <img src={Thumbnail_1} alt="" width="40%"/>
                     <div className='text-center'>
-                        <h3 className="tertiary-title">{props.date}</h3>
-                        <h2 className="secondary-title margin-small">{props.title}</h2>
-                        <h4 className='paragraph'>{props.description}</h4>
+                        <h3 className="course-date-text">{props.date}</h3>
+                        <h1 className="course-title-text">{props.title}</h1>
+                        <h4 className='course-description-text'>{props.description}</h4>
                     </div>
                 </div>
             </Link>
