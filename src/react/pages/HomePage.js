@@ -4,10 +4,10 @@ import ButtonPrimary from '../R_components/PrimaryButton';
 import {sectionTitles} from '../data/data';
 import Footer from '../layout/Footer';
 
-const overviewListItems = ['Interactive exercises', 'Real world projects','Competitions','Weekly drop-in Q&A sessions','Certificate for completion'];
-const overviewList = overviewListItems.map(e => <li className='overview__item'>&#10003;&emsp;{e}</li>)
+const overviewListItems = ['Interactive exercises', 'Real world projects','Competitions','Weekly drop-in Q&A sessions'];
+const overviewList = overviewListItems.map(e => <li className='overview__item'>{e}</li>)
 
-const contentList = sectionTitles.map((e,i) => <li className='content__item'><span className="content__week-text">Week {i+1}:</span>&emsp;<span className="content__course-text">{e}</span></li>)
+const contentList = sectionTitles.map((e,i) => <li className='content__item'>Week {i+1}: {e}</li>)
 
 
 const html = ( 
@@ -21,8 +21,7 @@ const html = (
   </div>
   <header className='header'>
     <div className='header__text-box'>
-    <h1 className="primary-title">Python Course</h1>
-    <h3 className='tertiary-title margin-small'>Teaching the basics of programming for the medical field.</h3>
+    <h1 className="primary-title color-blue">Python Course</h1>
     </div>
     <div className="header__text-box__btn">
       <ButtonPrimary href='/course' buttonText='Find out more' />
@@ -31,9 +30,9 @@ const html = (
 
   <div className="overview">
     <div className='overview__text-box'>
-        <h2 className='sub-primary-title'>10 Week Course</h2>
-        <h3 className='tertiary-title margin-small'>Build your knowledge from the basics up!</h3>
-        <ul className="overview__list">
+        <h2 className='secondary-title'>10 Week Course</h2>
+        <h3 className='tertiary-title margin-small'>Build your knowledge from the basics</h3>
+        <ul>
           {overviewList}
         </ul>
     </div>
@@ -41,8 +40,7 @@ const html = (
 
   <div className="content">
     <div className="content__text-box">
-    <h2 className='sub-primary-title'>Course Overview</h2>
-    <h3 className='tertiary-title margin-small'>From basics to advanced topics.</h3>
+    <h2 className='secondary-title'>Content Overview</h2>
     <ul>
       {contentList}
     </ul>
@@ -51,25 +49,10 @@ const html = (
 
   <div className="email">
     <div className="email__text-box">
-    <h2 className='sub-primary-title'>Subscribe</h2>
-    <span className='paragraph'>Join our mailing list to get reminders of when the course starts and when new sections are released!</span>
-    <br/><br/>
-
-    <div className="email__subscribe-container">
-    {/* https://mailchi.mp/e913da8be832/icsm-coding-python-course */}
-    <a className="btn btn-primary" href="https://mailchi.mp/e913da8be832/icsm-coding-python-course" target="_blank">Subscribe</a>
-    {/* <form action="https://app.us5.list-manage.com/subscribe/post?u=2aac43c67462a9b414ade9919&amp;id=9b54b7e643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-primary btn-form" /></div>
-      </form> */}
-    {/* <form action="https://app.us5.list-manage.com/subscribe/post?u=2aac43c67462a9b414ade9919&amp;id=9b54b7e643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" className="btn btn-primary btn-form" /></div>
-    </form> */}
-    </div>
-
-    <br/><br/>
-    <span className='paragraph'>Key updates and certificates will be distributed through email, so make sure to subscribe!</span>
+      <span className='email__span1'>Subscribe</span><span className='paragraph'>to our mailing list so that you never miss when a new section has been released!</span>
     </div>
   </div>
+  <a className="btn btn-primary btn-form" href="https://mailchi.mp/e913da8be832/icsm-coding-python-course">Subscribe</a>
   <Footer/>
 </body>
 

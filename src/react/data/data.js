@@ -59,11 +59,14 @@ const section4Links = [
 ]
 
 const section5Links = [
-  [defaultLink, 'Introduction to Section 5'],
-  [defaultLink, 'Reading a text file'],
-  [defaultLink, 'Writing to a text file'],
-  [defaultLink, 'Changing email template Challenge explanation'],
-  [defaultLink, 'Challenge solution'],
+  ['jDtDtZCUePs', '1. Section 5 Introduction'],
+  ['K6ycoXyUyuU', '2. Absolute and relative file paths'],
+  ['fF_ziYYK_HA', '3. Reading from text files'],
+  ['CrXt9DpXRGo', '4. Writing to text files'],
+  ['KjPjAX22kO8', '5. Python\'s random library', 'https://docs.python.org/3/library/random.html', 'Random library documentation'],
+  ['eZpy22VQGl4', '6. Email CHALLENGE'],
+  ['_vWHgYUQ6KA', '7. Email challenge: generate activity function'],
+  ['QSrX0B0Zry4','8. Email challenge: Generate email function']
 ]
 
 const section6Links = [
@@ -126,5 +129,7 @@ export const descriptionList = ['Videos you should watch before starting the cou
 
 export const datesList = ['1st Oct', '8 Oct', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum',];
 
-export const availableList = [1,0,0,0,0,0,0,0,0,0];
+// export const availableList = [1,0,0,0,0,0,0,0,0,0];
+
+export const availableList = [1,1,1,1,1,1,1,1,1,1];
 

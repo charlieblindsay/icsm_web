@@ -9,7 +9,7 @@ const Video = props => {
         <div className='video' id={props.src}>
             <h3 className="video-section-title">{props.videoTitle}</h3>
             <div className="iframe-container">
-                <iframe type="text/html" frameborder="0" allowfullscreen="" src={srcFull} gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+                <iframe type="text/html" frameborder="0" allowfullscreen="" src={srcFull} gesture="media"  allow="encrypted-media" frameborder="2" allowfullscreen="allowfullscreen" webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
             </div>
             <div className='video-description'>
                 <h3 className='video-section-title'>Useful Links</h3>
@@ -23,7 +23,7 @@ const Video = props => {
         <div className='video' id={props.src}>
             <h3 className="video-section-title">{props.videoTitle}</h3>
             <div className="iframe-container">
-                <iframe type="text/html" frameborder="0" allowfullscreen="" src={srcFull} gesture="media"  allow="encrypted-media" allowfullscreen></iframe>
+                <iframe type="text/html" frameborder="0" allowfullscreen="" src={srcFull} gesture="media"  allow="encrypted-media" frameborder="2" allowfullscreen="allowfullscreen" webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
             </div>
         </div>
         );
