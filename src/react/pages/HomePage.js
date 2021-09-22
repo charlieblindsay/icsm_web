@@ -49,7 +49,7 @@ const html = (
 
   <div className="email">
     <div className="email__text-box">
-      <span className='email__span1'>Subscribe</span><span className='paragraph'>to our mailing list so that you never miss when a new section has been released!</span>
+      <span className='email__span'>Subscribe </span><span className='paragraph'>to our mailing list so that you never miss when a new section has been released!</span>
     </div>
   </div>
   <a className="btn btn-primary btn-form" href="https://mailchi.mp/e913da8be832/icsm-coding-python-course">Subscribe</a>
