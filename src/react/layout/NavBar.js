@@ -40,9 +40,9 @@ export default class NavBar extends Component {
     return(
         <div className={classnames('navbar', {'navbar--hidden': !this.state.visible})}>
             <ul className="navbar__list">
-                <li className="navbar__list-item"><Link to='/'>Home</Link></li>
-                <li className="navbar__list-item"><Link to='/course'>Course</Link></li>
-                <li className="navbar__list-item"><a href='https://mailchi.mp/e913da8be832/icsm-coding-python-course'>Subscribe</a></li>
+                <li className="navbar__list-item"><Link to='/'>HOME</Link></li>
+                <li className="navbar__list-item"><Link to='/course'>COURSE</Link></li>
+                <li className="navbar__list-item"><a href='https://mailchi.mp/e913da8be832/icsm-coding-python-course' target="_blank">SUBSCRIBE</a></li>
             </ul>
         </div>
     );

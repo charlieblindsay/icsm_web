@@ -42,7 +42,8 @@
     }
 
     &-description{
-      background-color: rgba($color-dark-grey, 0.3);
+      background-color: rgba($color-primary, 0.05);
+      padding:2em;
       left: 50%;
       transform: translate(-48%, 0);
       position: relative;

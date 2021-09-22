@@ -1,18 +1,20 @@
 .photo-section{
+    margin-left: 10em;
+    margin-right: 10em;
     position: relative;
-    top: 2em;
-    left: 50%;
-    width: 80%;
-    transform: translateX(-50%);
+    top: 1em;
     justify-content: center;
-
-
     display: flex;
     flex-wrap: wrap;
 }
 
+.team-image{
+    max-height: 300px;
+    max-width: 300px;
+}
+
 .photo-container{
-    margin: 1em;
+    margin: 5em;
     width: 15em;
     height: 15em;
     text-align: center;
