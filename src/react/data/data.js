@@ -90,10 +90,18 @@ const section6Links = [
 ]
 
 
-
 const section7Links = [
-  [defaultLink, 'Introduction to Section 8'],
-  [defaultLink, ''],
+  ['nNbaz3jjlcg', '1. Section 7 Introduction'],
+  ['9cC7vt9Y5OM', '2. Background Theory behind APIs'],
+  ['xJbDiTLFLm0','3. Your first get request!'],
+  ['ihkNJLTj4qw','4. A get request with parameters using the Bored API'],
+  ['9bL-fjX2kAo','5. Bored API CHALLENGE!'],
+  ['zXH4NTzHozE','6. Bored challenge solution'],
+  ['7SCsfUBgypw','7. Nationalize API Challenge & Solution'],
+  ['l7SkiBgmxIc','8. Nutritionix API'],
+  ['d4vrjZ6dHcc','9. Nutritionix Documentation & Authentication'],
+  ['BisC1SpJwOQ','10. POST request with Nutritionix API'],
+  ['PMKYDKIH6DQ','11. Nutritionix API CHALLENGE with solution']
 ]
 
 const section8Links = [
