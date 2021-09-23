@@ -31,11 +31,10 @@ const section2Links = [
   ['eZx6lDbfqM4', 'Introduction to for loops', 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'Repl Exercise'],
   ['gYKXLI_32wM', 'Using the range() function with for loops', 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'Repl Exercise'],
   ['ALVtVlyZR1M', 'List comprehension'],
-  [defaultLink, 'Concept of dictionaries'],
-  [defaultLink, 'Difference between dictionaries and lists'],
-  [defaultLink, 'Retreiving, adding and removing data from a dictionary'],
-  [defaultLink, 'Nested dictionaries'],
-  [defaultLink, 'JSON'],
+  ['O4Kv-beYEfw', 'Introduction to dictionaries'],
+  ['qkm_v6Hi044', 'Creating and editing dictionaries'],
+  ['RqjPcgyZGfk', 'Dictionaries exercise'],
+  ['DCML_M2jjwQ', 'Dictionaries exercise solution & JSON'],
   ];
 
 const section3Links = [
@@ -120,7 +119,7 @@ const section8Links = [
 ]
 
 
-export const sectionTitles = ['Helpful Videos', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Reading & Writing to text files', 'Sending automated emails','Data Visualization','APIs'];
+export const sectionTitles = ['Helpful Videos', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Interacting with files', 'Sending automated emails','Data Visualization','APIs'];
 export const sectionLinksList = [section0Links, section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links]
 export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
 
