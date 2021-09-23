@@ -69,6 +69,18 @@ const section5Links = [
 ]
 
 const section6Links = [
+  ['tAZuSLJWqGc', '1. Section 6 Introduction'],
+  ['wonM-xDJRZs', '2. How to send an email with python (Miyu)'],
+  ['fS1MYI283Ko', '3. Datetime library (Miyu)'],
+  ['VGeKTmF2hyY', '4. Automation with python anywhere'],
+  ['ij3vt6qLlD4', '5. Patient email CHALLENGE'],
+  ['DET0G4x8trI', '6. CHALLENGE: Compare date function'],
+  ['9vfcv-aZJ20', '7. CHALLENGE: Create message function'],
+  ['LplAdaLbp4w', '8. CHALLENGE: Send email function'],
+  ['4eO5S3p4W3I', '9. CHALLENGE: Combining functions'],
+]
+
+const section7Links = [
   ["04Di068aygI", 'Introduction to Section 6'],
   ['fuADC_kmOaQ', 'Introduction to pandas DataFrame object'],
   ["vm3PCIXZDmY", 'Creating a pandas DataFrame object with its constructor'],
@@ -92,7 +104,7 @@ const section6Links = [
 ]
 
 
-const section7Links = [
+const section8Links = [
   ['nNbaz3jjlcg', '1. Section 7 Introduction'],
   ['9cC7vt9Y5OM', '2. Background Theory behind APIs'],
   ['xJbDiTLFLm0','3. Your first get request!'],
@@ -106,17 +118,7 @@ const section7Links = [
   ['PMKYDKIH6DQ','11. Nutritionix API CHALLENGE with solution']
 ]
 
-const section8Links = [
-  ['tAZuSLJWqGc', '1. Section 6 Introduction'],
-  ['wonM-xDJRZs', '2. How to send an email with python (Miyu)'],
-  ['fS1MYI283Ko', '3. Datetime library (Miyu)'],
-  ['VGeKTmF2hyY', '4. Automation with python anywhere'],
-  ['ij3vt6qLlD4', '5. Patient email CHALLENGE'],
-  ['DET0G4x8trI', '6. CHALLENGE: Compare date function'],
-  ['9vfcv-aZJ20', '7. CHALLENGE: Create message function'],
-  ['LplAdaLbp4w', '8. CHALLENGE: Send email function'],
-  ['4eO5S3p4W3I', '9. CHALLENGE: Combining functions'],
-]
+
 
 
 export const sectionTitles = ['Helpful Videos', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Interacting with files', 'Sending automated emails','Data Visualization','APIs'];
