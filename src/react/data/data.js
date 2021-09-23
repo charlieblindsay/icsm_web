@@ -81,7 +81,7 @@ const section6Links = [
 ]
 
 const section7Links = [
-  ["04Di068aygI", 'Introduction to Section 6'],
+  ["04Di068aygI", 'Introduction to Section 7'],
   ['fuADC_kmOaQ', 'Introduction to pandas DataFrame object'],
   ["vm3PCIXZDmY", 'Creating a pandas DataFrame object with its constructor'],
   ["9aPVz_5KZJc", 'pandas DataFrame attributes'],
@@ -105,7 +105,7 @@ const section7Links = [
 
 
 const section8Links = [
-  ['nNbaz3jjlcg', '1. Section 7 Introduction'],
+  ['nNbaz3jjlcg', '1. Section 8 Introduction'],
   ['9cC7vt9Y5OM', '2. Background Theory behind APIs'],
   ['xJbDiTLFLm0','3. Your first get request!'],
   ['ihkNJLTj4qw','4. A get request with parameters using the Bored API'],
