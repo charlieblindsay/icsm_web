@@ -1,8 +1,15 @@
 const defaultLink = "17NMhswEpjU";
 
 const section0Links = [
-  ['OLAu_E5pd5Q', 'How to fork a repl?', 'https://replit.com/@CodingICSM/List-comprehension', 'Click here to practise forking a repl'],
-  ['dJoxWue3No0', 'Downloading files from github', 'https://github.com/icsm-coding/Python-Course', 'Click here to go to our github page']
+  ['mP2-3FgrPWs','Course Introduction',],
+  ['W2RdDM-7-j8', 'How to fork a repl', 'https://replit.com/@CodingICSM/List-comprehension', 'Click here to practise forking a repl'],
+  ['eU-BdoHuja8', 'How to download Course Files from Github', 'https://github.com/icsm-coding/Python-Course', 'Click here to go to our github page'],
+  ['zdhRofu_oeI','Pycharm: Download and Installation'],
+  ['6K3mU_vt8fM','Pycharm: Creating a Virtual Environment'],
+  ['ICTVyB8PKcg','Pycharm: Basic Feaures (creating scripts, run configurations, installing packages)'],
+  ['hU0v3q3Ne6I','Installing Jupyter 1: How to install python'],
+  ['51nErKG9mkQ','Installing Jupyter 2: How to install pip'],
+  ['-YdbnlNClCQ','Installing Jupyter 3: How to install Jupyter & How to use Jupyter notebooks']
 ]
 
 const section1Links = [
@@ -121,12 +128,12 @@ const section8Links = [
 
 
 
-export const sectionTitles = ['Helpful Videos', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Interacting with files', 'Sending automated emails','Data Visualization','APIs'];
+export const sectionTitles = ['Course Preparation', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Interacting with files', 'Sending automated emails','Data Visualization','APIs', 'Competition Week'];
 export const sectionLinksList = [section0Links, section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links]
-export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', 'ipsum', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
+export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', '', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
 
-export const datesList = ['18th Oct', '25th Oct', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec','13 Dec'];
+export const datesList = ['released', '18th Oct', '25th Oct', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec',];
 
-export const availableList = [1,0,0,0,0,0,0,0,0];
+// export const availableList = [1,0,0,0,0,0,0,0,0];
 
-// export const availableList = [1,1,1,1,1,1,1,1,1];
+export const availableList = [1,1,1,1,1,1,1,1,1,];
