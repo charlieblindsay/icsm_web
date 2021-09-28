@@ -55,13 +55,16 @@ const section3Links = [
 ]
 
 const section4Links = [
-  [defaultLink, 'Introduction to Section 4'],
-  [defaultLink, 'Why is OOP useful?'],
-  [defaultLink, 'Concept of classes and objects'],
-  [defaultLink, 'Instantiating objects and accessing their attributes and methods'],
-  [defaultLink, 'Mini Challenge solution'],
-  [defaultLink, 'Introduction to PHQ challenge'],
-  [defaultLink, 'Solution to PHQ challenge (MULTIPLE VIDEOS)'],
+  ['vtRRsH61JCg', '1. Section 4 Introduction'],
+  ['mmnYuStHlNM', '2. OOP Background Theory'],
+  ['M1EmRN-G1X4', '3. Creating your 1st Class!'],
+  ['ScirK_e5FUc', '4. Changing attributes in Employee class'],
+  ['myAO7GBOt8A', '5. External and standard python libraries, modules & classes'],
+  ['tr9CZJlYZ-Y', '6. Introduction to Health Questionnaire Challenge'],
+  ['IIj4fwsUx4Y', '7. Challenge Solution 1: Creating Question and Questionnaire classes'],
+  ['wSsHEicoPCQ','8. Challenge solution 2: Displaying the 5 questions'],
+  ['03uTIuy6N-I','9. Challenge solution 3: Displaying options & user input prompts'],
+  ['Psb4rPtCZ_0','10. Challenge solution 4: Checking user input & displaying result message']
 ]
 
 const section5Links = [
@@ -78,7 +81,7 @@ const section5Links = [
 const section6Links = [
   ['tAZuSLJWqGc', '1. Section 6 Introduction'],
   ['wonM-xDJRZs', '2. How to send an email with python (Miyu)'],
-  ['fS1MYI283Ko', '3. Datetime library (Miyu)'],
+  ['fS1MYI283Ko', '3. Datetime library (Miyu)', 'https://duckduckgo.com/?q=Python+datetime+cheatsheet&ia=cheatsheet&iax=cheatsheet', 'Datetime cheatsheet'],
   ['VGeKTmF2hyY', '4. Automation with python anywhere'],
   ['ij3vt6qLlD4', '5. Patient email CHALLENGE'],
   ['DET0G4x8trI', '6. CHALLENGE: Compare date function'],
@@ -134,6 +137,6 @@ export const descriptionList = ['Videos you should watch before starting the cou
 
 export const datesList = ['released', '18th Oct', '25th Oct', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec',];
 
-export const availableList = [1,0,0,0,0,0,0,0,0];
+// export const availableList = [1,0,0,0,0,0,0,0,0];
 
-// export const availableList = [1,1,1,1,1,1,1,1,1];
+export const availableList = [1,1,1,1,1,1,1,1,1];
