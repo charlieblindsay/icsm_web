@@ -2,8 +2,8 @@ const defaultLink = "17NMhswEpjU";
 
 const section0Links = [
   ['mP2-3FgrPWs','Course Introduction',],
-  ['W2RdDM-7-j8', 'How to fork a repl', 'https://replit.com/@CodingICSM/List-comprehension', 'Click here to practise forking a repl'],
-  ['eU-BdoHuja8', 'How to download Course Files from Github', 'https://github.com/icsm-coding/Python-Course', 'Click here to go to our github page'],
+  ['W2RdDM-7-j8', 'How to fork a repl', [{'url': 'https://replit.com/@CodingICSM/List-comprehension', 'title': 'Click here to practise forking a repl'}]],
+  ['eU-BdoHuja8', 'How to download Course Files from Github', [{'url': 'https://github.com/icsm-coding/Python-Course', 'title': 'Click here to go to our github page'}]],
   ['zdhRofu_oeI','Pycharm: Download and Installation'],
   ['6K3mU_vt8fM','Pycharm: Creating a Virtual Environment'],
   ['ICTVyB8PKcg','Pycharm: Basic Feaures (creating scripts, run configurations, installing packages)'],
@@ -13,16 +13,14 @@ const section0Links = [
 ]
 
 const section1Links = [
-[defaultLink, 'Introduction to Section 1'],
-[defaultLink, 'Printing to the console'],
-[defaultLink, 'Data types'],
-[defaultLink, 'Variables'],
-[defaultLink, 'Input functions'],
-[defaultLink, 'f-strings'],
-[defaultLink, 'f-string challenge'],
+['JDNs_RBoXLo', '1. Printing to the console'],
+['LiHa6cS0Otw', '2. Data types and Variables'],
+['CuvVr2hE5js', 'Input function and Formatting'],
+['EvIU_YqRDuU', 'f-string Exercise'],
+['ZL6UIUb8mYc', 'f-string Exercise Solution'],
 [defaultLink, 'Mathematical operators'],
 [defaultLink, 'Mathematical operators challenge'],
-[defaultLink, 'Conditionals'],
+['xvqJJCUv1-Q', 'Conditional Statements'],
 [defaultLink, 'Divisibility checker solution'],
 [defaultLink, 'Leap year challenge solution'],
 ];
@@ -30,14 +28,17 @@ const section1Links = [
 
 const section2Links = [
   ['-V2zUoSRWDk', 'Introduction to Section 2'],
-  ["3ZDPKyB2eR0", 'Accessing Individual Elements', 'https://replit.com/@CodingICSM/Accessing-Individual-Elements#main.py', 'Repl Exercise'],
+  ["3ZDPKyB2eR0", 'Accessing Individual Elements', [{'url':'https://replit.com/@CodingICSM/Accessing-Individual-Elements#main.py', 'title': 'Repl Exercise'}]],
   ["QXjSdwm0Uhk", 'Introduction to list slicing'],
   ["e8SlRbfJaFA", 'List slicing examples'],
-  ["ohpliHaObd4", 'List slicing exercises', 'https://replit.com/@CodingICSM/List-Slicing#main.py', 'Repl Exercise'],
-  ["kJmxQWddyYI", 'List methods'],
-  ['eZx6lDbfqM4', 'Introduction to for loops', 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'Repl Exercise'],
-  ['gYKXLI_32wM', 'Using the range() function with for loops', 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'Repl Exercise'],
+  ["ohpliHaObd4", 'List slicing exercises', [{'url': 'https://replit.com/@CodingICSM/List-Slicing#main.py', 'title': 'Repl Exercise'}]],
+  ['kJmxQWddyYI', 'List methods'],
+  ['eZx6lDbfqM4', 'Introduction to for loops', [{'url': 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'title': 'Repl Exercise'}]],
+  ['gYKXLI_32wM', 'Using the range() function with for loops', [{'url': 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'title': 'Repl Exercise'}]],
   ['ALVtVlyZR1M', 'List comprehension'],
+  ['ASuv7hfZ9wk','While loops 1: Definition & Python syntax'],
+  ['BluyQD8BuQs','While loops 2: Python examples'],
+  ['JGaq_crEU58','While loops CHALLENGE'],
   ['O4Kv-beYEfw', 'Introduction to dictionaries'],
   ['qkm_v6Hi044', 'Creating and editing dictionaries'],
   ['RqjPcgyZGfk', 'Dictionaries exercise'],
@@ -72,7 +73,7 @@ const section5Links = [
   ['K6ycoXyUyuU', '2. Absolute and relative file paths'],
   ['fF_ziYYK_HA', '3. Reading from text files'],
   ['CrXt9DpXRGo', '4. Writing to text files'],
-  ['KjPjAX22kO8', '5. Python\'s random library', 'https://docs.python.org/3/library/random.html', 'Random library documentation'],
+  ['KjPjAX22kO8', '5. Python\'s random library', [{'url': 'https://docs.python.org/3/library/random.html', 'title': 'Random library documentation'}]],
   ['eZpy22VQGl4', '6. Email CHALLENGE'],
   ['_vWHgYUQ6KA', '7. Email challenge: generate activity function'],
   ['QSrX0B0Zry4','8. Email challenge: Generate email function']
@@ -81,7 +82,7 @@ const section5Links = [
 const section6Links = [
   ['tAZuSLJWqGc', '1. Section 6 Introduction'],
   ['wonM-xDJRZs', '2. How to send an email with python (Miyu)'],
-  ['fS1MYI283Ko', '3. Datetime library (Miyu)', 'https://duckduckgo.com/?q=Python+datetime+cheatsheet&ia=cheatsheet&iax=cheatsheet', 'Datetime cheatsheet'],
+  ['fS1MYI283Ko', '3. Datetime library (Miyu)', [{'url': 'https://duckduckgo.com/?q=Python+datetime+cheatsheet&ia=cheatsheet&iax=cheatsheet', 'title': 'Datetime cheatsheet'}]],
   ['VGeKTmF2hyY', '4. Automation with python anywhere'],
   ['ij3vt6qLlD4', '5. Patient email CHALLENGE'],
   ['DET0G4x8trI', '6. CHALLENGE: Compare date function'],
