@@ -1,3 +1,14 @@
+import T_0 from '../img/t_0.png';
+import T_1 from '../img/t_1.png';
+import T_2 from '../img/t_2.png';
+import T_3 from '../img/t_3.png';
+import T_4 from '../img/t_4.png';
+import T_5 from '../img/t_5.png';
+import T_6 from '../img/t_6.png';
+import T_7 from '../img/t_7.png';
+import T_8 from '../img/t_8.png';
+
+
 const defaultLink = "17NMhswEpjU";
 
 const section0Links = [
@@ -130,7 +141,7 @@ const section8Links = [
 ]
 
 
-
+export const thumbnailList = [T_0, T_1, T_2, T_3, T_4, T_5, T_6, T_7, T_8]
 
 export const sectionTitles = ['Course Preparation', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Interacting with files', 'Sending automated emails','Data Visualization','APIs', 'Competition Week'];
 export const sectionLinksList = [section0Links, section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links]
