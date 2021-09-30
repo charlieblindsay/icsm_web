@@ -26,16 +26,14 @@ const section0Links = [
 const section1Links = [
 ['JDNs_RBoXLo', '1. Printing to the console'],
 ['LiHa6cS0Otw', '2. Data types and Variables'],
-['CuvVr2hE5js', 'Input function and Formatting'],
-['EvIU_YqRDuU', 'f-string Exercise'],
-['ZL6UIUb8mYc', 'f-string Exercise Solution'],
-[defaultLink, 'Mathematical operators'],
-[defaultLink, 'Mathematical operators challenge'],
+['mXu1JYsy1-g', '3. Making programs interactive with the input() Function'],
+['OK2e90JnVpU','4. String formatting with f-strings'],
+['EvIU_YqRDuU', '5. f-string Exercise'],
+['ZL6UIUb8mYc', '6. f-string Exercise Solution'],
+['5JBrh5bfAuk', '7. Mathematical operators'],
 ['xvqJJCUv1-Q', 'Conditional Statements'],
-[defaultLink, 'Divisibility checker solution'],
-[defaultLink, 'Leap year challenge solution'],
+['Ox106YhGbig', 'Leap Year Challenge'],
 ];
-
 
 const section2Links = [
   ['-V2zUoSRWDk', 'Introduction to Section 2'],
@@ -58,11 +56,11 @@ const section2Links = [
 
 const section3Links = [
     [defaultLink, 'Introduction to Section 3'],
-    [defaultLink, 'Concept of functions'],
-    [defaultLink, 'Functions without arguments'],
-    [defaultLink, 'Functions with arguments'],
-    [defaultLink, 'Difference between positional arguments and key word arguments'],
-    [defaultLink, 'Introduction to hangman challenge'],
+    ['RLr4BaJX9x4', '1. Section 3 Function Presentation'],
+    ['eiT0rq0hDvA', '2. Section 3 Function without parameters'],
+    ['kwbOEHztZec', '3. Section 3 Function with parameters'],
+    ['xvlcYT7JFVY', '4. The difference between positional and keyword arguments'],
+    ['q4-fVAkUYT4', '5. The scope of variables'],
     [defaultLink, 'Solution to hangman (MULTIPLE VIDEOS)'],
 ]
 

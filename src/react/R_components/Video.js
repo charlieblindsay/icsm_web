@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Video = props => {
-    const srcFull = 'https://www.youtube.com/embed/' + props.src;
+    const srcFull = 'https://www.youtube.com/embed/' + props.src + '?rel=0';
 
     if (props.external_link_dict != null){
         const externalLinkList = props.external_link_dict.map(e => <a href={e.url} target='_blank' className="video-section-link">{e.title}</a>);

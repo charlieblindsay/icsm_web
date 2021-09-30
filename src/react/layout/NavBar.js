@@ -41,8 +41,9 @@ export default class NavBar extends Component {
         <div className={classnames('navbar', {'navbar--hidden': !this.state.visible})}>
             <ul className="navbar__list">
                 <li className="navbar__list-item"><Link to='/'>HOME</Link></li>
-                <li className="navbar__list-item"><Link to='/course'>COURSE</Link></li>
+                <li className="navbar__list-item"><Link to='/course'>SECTIONS</Link></li>
                 <li className="navbar__list-item"><a href='https://mailchi.mp/e913da8be832/icsm-coding-python-course' target="_blank">SUBSCRIBE</a></li>
+                <li className="navbar__list-item"><a href='https://padlet.com/codingicsm/python_course' target="_blank">COURSE Q &amp; A</a></li>
             </ul>
         </div>
     );
