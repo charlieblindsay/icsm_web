@@ -1,15 +1,15 @@
 import React from 'react';
 import CourseButton from '../R_components/CourseButton';
 import CourseButtonGrey from '../R_components/CourseButtonGrey';
-import {descriptionList, sectionTitles, datesList, availableList} from '../data/data'
+import {thumbnailList, descriptionList, sectionTitles, datesList, availableList} from '../data/data'
 
 
 const courseButtonsList = datesList.map(function(e, i){
     let section_number_and_date = 'Week ' + (i) + ' - ' + datesList[i];
     if(availableList[i] == 1){
-        return <CourseButton section_number={i} date={section_number_and_date} title={sectionTitles[i]} description={descriptionList[i]} />;
+        return <CourseButton thumbnail={thumbnailList[i]} section_number={i} date={section_number_and_date} title={sectionTitles[i]} description={descriptionList[i]} />;
     }else{
-        return  <CourseButtonGrey date={section_number_and_date} title={sectionTitles[i]} description={descriptionList[i]} />;
+        return  <CourseButtonGrey thumbnail={thumbnailList[i]} date={section_number_and_date} title={sectionTitles[i]} description={descriptionList[i]} />;
     }
 });
 

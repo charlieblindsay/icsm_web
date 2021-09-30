@@ -1,35 +1,54 @@
 import React from 'react';
-
-
-{/* ONLY SEEMS TO WORK WITH SQUARE IMAGES */}
-
+import Charlie from '../img/charlie.jpg';
+import Diya from '../img/diya.png';
+import Jan from '../img/jan.jpg';
+import Emike from '../img/emike.jpg';
+import Miyu from '../img/miyu.jpeg';
+import Laura from '../img/laura.jpg';
 
 function Team(){
     return(
-
-        
-
         <div className='photo-section'>
-            <div className="photo-container">
-                <img src="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/alicesidebaroption--tojpeg_1552996095111_x2.jpg" className="team-image"/>
-                <h3 className="secondary-title">Alice Gast</h3>
-                <h3 className="tertiary-title">3rd Year Medic</h3>
+            <div>
+            <div className='image-cropper'>
+                <img className="profile-pic" src={Charlie} />
             </div>
-            <div className="photo-container">
-                <img src="https://blog.hubspot.com/hs-fs/hubfs/an%20image%20centered%20horizontally%20with%20the%20CSS%20flex%20property-1.png?width=650&name=an%20image%20centered%20horizontally%20with%20the%20CSS%20flex%20property-1.png" className="team-image"/>
-                <h3 className="secondary-title">Galaxy man</h3>
-                <h3 className="tertiary-title">3rd Year Medic</h3>
+            <h3 className='image-text'>Charlie - Course Lead &amp; Website</h3>
             </div>
-            <div className="photo-container">
-                <img src="https://mcusercontent.com/23aa4540effb748800e9fd704/images/0ddf600f-b772-6d0e-1192-7918323c580c.png" className="team-image"/>
-                <h3 className="secondary-title">CODER</h3>
-                <h3 className="tertiary-title">3rd Year Medic</h3>
+            <div>
+            <div className='image-cropper'>
+                <img className="profile-pic" src={Diya} />
             </div>
-            <div className="photo-container">photo</div>
-            <div className="photo-container">photo</div>
-            <div className="photo-container">photo</div>
+            <h3 className='image-text'>Diya - Section 7 &amp; Publicity</h3>
+            </div>
+            <div>
+            <div className='image-cropper'>
+                <img className="profile-pic" src={Jan} />
+            </div>
+            <h3 className='image-text'>Jan - Section 2 &amp; Website</h3>
+            </div>
+            <div>
+            <div className='image-cropper'>
+                <img className="profile-pic" src={Miyu} />
+            </div>
+            <h3 className='image-text'>Miyu - Section 1, 3 &amp; 6</h3>
+            </div>
+            <div>
+            <div className='image-cropper'>
+                <img className="profile-pic" src={Emike} />
+            </div>
+            <h3 className='image-text'>Emike - Section 1 &amp; 3</h3>
+            </div>
+            <div>
+            <div className='image-cropper'>
+                <img className="profile-pic" src={Laura} />
+            </div>
+            <h3 className='image-text'>Laura - Section 4</h3>
+            </div>
         </div>
     );
 }
 
 export default Team;
+
+

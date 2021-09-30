@@ -1,9 +1,20 @@
+import T_0 from '../img/t_0.png';
+import T_1 from '../img/t_1.png';
+import T_2 from '../img/t_2.png';
+import T_3 from '../img/t_3.png';
+import T_4 from '../img/t_4.png';
+import T_5 from '../img/t_5.png';
+import T_6 from '../img/t_6.png';
+import T_7 from '../img/t_7.png';
+import T_8 from '../img/t_8.png';
+
+
 const defaultLink = "17NMhswEpjU";
 
 const section0Links = [
   ['mP2-3FgrPWs','Course Introduction',],
-  ['W2RdDM-7-j8', 'How to fork a repl', 'https://replit.com/@CodingICSM/List-comprehension', 'Click here to practise forking a repl'],
-  ['eU-BdoHuja8', 'How to download Course Files from Github', 'https://github.com/icsm-coding/Python-Course', 'Click here to go to our github page'],
+  ['W2RdDM-7-j8', 'How to fork a repl', [{'url': 'https://replit.com/@CodingICSM/List-comprehension', 'title': 'Click here to practise forking a repl'}]],
+  ['eU-BdoHuja8', 'How to download Course Files from Github', [{'url': 'https://github.com/icsm-coding/Python-Course', 'title': 'Click here to go to our github page'}]],
   ['zdhRofu_oeI','Pycharm: Download and Installation'],
   ['6K3mU_vt8fM','Pycharm: Creating a Virtual Environment'],
   ['ICTVyB8PKcg','Pycharm: Basic Feaures (creating scripts, run configurations, installing packages)'],
@@ -13,31 +24,30 @@ const section0Links = [
 ]
 
 const section1Links = [
-[defaultLink, 'Introduction to Section 1'],
-[defaultLink, 'Printing to the console'],
-[defaultLink, 'Data types'],
-[defaultLink, 'Variables'],
-[defaultLink, 'Input functions'],
-[defaultLink, 'f-strings'],
-[defaultLink, 'f-string challenge'],
-[defaultLink, 'Mathematical operators'],
-[defaultLink, 'Mathematical operators challenge'],
-[defaultLink, 'Conditionals'],
-[defaultLink, 'Divisibility checker solution'],
-[defaultLink, 'Leap year challenge solution'],
+['JDNs_RBoXLo', '1. Printing to the console'],
+['LiHa6cS0Otw', '2. Data types and Variables'],
+['mXu1JYsy1-g', '3. Making programs interactive with the input() Function'],
+['OK2e90JnVpU','4. String formatting with f-strings'],
+['EvIU_YqRDuU', '5. f-string Exercise'],
+['ZL6UIUb8mYc', '6. f-string Exercise Solution'],
+['5JBrh5bfAuk', '7. Mathematical operators'],
+['xvqJJCUv1-Q', 'Conditional Statements'],
+['Ox106YhGbig', 'Leap Year Challenge'],
 ];
-
 
 const section2Links = [
   ['-V2zUoSRWDk', 'Introduction to Section 2'],
-  ["3ZDPKyB2eR0", 'Accessing Individual Elements', 'https://replit.com/@CodingICSM/Accessing-Individual-Elements#main.py', 'Repl Exercise'],
+  ["3ZDPKyB2eR0", 'Accessing Individual Elements', [{'url':'https://replit.com/@CodingICSM/Accessing-Individual-Elements#main.py', 'title': 'Repl Exercise'}]],
   ["QXjSdwm0Uhk", 'Introduction to list slicing'],
   ["e8SlRbfJaFA", 'List slicing examples'],
-  ["ohpliHaObd4", 'List slicing exercises', 'https://replit.com/@CodingICSM/List-Slicing#main.py', 'Repl Exercise'],
-  ["kJmxQWddyYI", 'List methods'],
-  ['eZx6lDbfqM4', 'Introduction to for loops', 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'Repl Exercise'],
-  ['gYKXLI_32wM', 'Using the range() function with for loops', 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'Repl Exercise'],
+  ["ohpliHaObd4", 'List slicing exercises', [{'url': 'https://replit.com/@CodingICSM/List-Slicing#main.py', 'title': 'Repl Exercise'}]],
+  ['kJmxQWddyYI', 'List methods'],
+  ['eZx6lDbfqM4', 'Introduction to for loops', [{'url': 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'title': 'Repl Exercise'}]],
+  ['gYKXLI_32wM', 'Using the range() function with for loops', [{'url': 'https://replit.com/@CodingICSM/Doc-I-feel-loopy#main.py', 'title': 'Repl Exercise'}]],
   ['ALVtVlyZR1M', 'List comprehension'],
+  ['ASuv7hfZ9wk','While loops 1: Definition & Python syntax'],
+  ['BluyQD8BuQs','While loops 2: Python examples'],
+  ['JGaq_crEU58','While loops CHALLENGE'],
   ['O4Kv-beYEfw', 'Introduction to dictionaries'],
   ['qkm_v6Hi044', 'Creating and editing dictionaries'],
   ['RqjPcgyZGfk', 'Dictionaries exercise'],
@@ -46,22 +56,25 @@ const section2Links = [
 
 const section3Links = [
     [defaultLink, 'Introduction to Section 3'],
-    [defaultLink, 'Concept of functions'],
-    [defaultLink, 'Functions without arguments'],
-    [defaultLink, 'Functions with arguments'],
-    [defaultLink, 'Difference between positional arguments and key word arguments'],
-    [defaultLink, 'Introduction to hangman challenge'],
+    ['RLr4BaJX9x4', '1. Section 3 Function Presentation'],
+    ['eiT0rq0hDvA', '2. Section 3 Function without parameters'],
+    ['kwbOEHztZec', '3. Section 3 Function with parameters'],
+    ['xvlcYT7JFVY', '4. The difference between positional and keyword arguments'],
+    ['q4-fVAkUYT4', '5. The scope of variables'],
     [defaultLink, 'Solution to hangman (MULTIPLE VIDEOS)'],
 ]
 
 const section4Links = [
-  [defaultLink, 'Introduction to Section 4'],
-  [defaultLink, 'Why is OOP useful?'],
-  [defaultLink, 'Concept of classes and objects'],
-  [defaultLink, 'Instantiating objects and accessing their attributes and methods'],
-  [defaultLink, 'Mini Challenge solution'],
-  [defaultLink, 'Introduction to PHQ challenge'],
-  [defaultLink, 'Solution to PHQ challenge (MULTIPLE VIDEOS)'],
+  ['vtRRsH61JCg', '1. Section 4 Introduction'],
+  ['mmnYuStHlNM', '2. OOP Background Theory'],
+  ['M1EmRN-G1X4', '3. Creating your 1st Class!'],
+  ['ScirK_e5FUc', '4. Changing attributes in Employee class'],
+  ['myAO7GBOt8A', '5. External and standard python libraries, modules & classes'],
+  ['tr9CZJlYZ-Y', '6. Introduction to Health Questionnaire Challenge'],
+  ['IIj4fwsUx4Y', '7. Challenge Solution 1: Creating Question and Questionnaire classes'],
+  ['wSsHEicoPCQ','8. Challenge solution 2: Displaying the 5 questions'],
+  ['03uTIuy6N-I','9. Challenge solution 3: Displaying options & user input prompts'],
+  ['Psb4rPtCZ_0','10. Challenge solution 4: Checking user input & displaying result message']
 ]
 
 const section5Links = [
@@ -69,7 +82,7 @@ const section5Links = [
   ['K6ycoXyUyuU', '2. Absolute and relative file paths'],
   ['fF_ziYYK_HA', '3. Reading from text files'],
   ['CrXt9DpXRGo', '4. Writing to text files'],
-  ['KjPjAX22kO8', '5. Python\'s random library', 'https://docs.python.org/3/library/random.html', 'Random library documentation'],
+  ['KjPjAX22kO8', '5. Python\'s random library', [{'url': 'https://docs.python.org/3/library/random.html', 'title': 'Random library documentation'}]],
   ['eZpy22VQGl4', '6. Email CHALLENGE'],
   ['_vWHgYUQ6KA', '7. Email challenge: generate activity function'],
   ['QSrX0B0Zry4','8. Email challenge: Generate email function']
@@ -78,7 +91,7 @@ const section5Links = [
 const section6Links = [
   ['tAZuSLJWqGc', '1. Section 6 Introduction'],
   ['wonM-xDJRZs', '2. How to send an email with python (Miyu)'],
-  ['fS1MYI283Ko', '3. Datetime library (Miyu)'],
+  ['fS1MYI283Ko', '3. Datetime library (Miyu)', [{'url': 'https://duckduckgo.com/?q=Python+datetime+cheatsheet&ia=cheatsheet&iax=cheatsheet', 'title': 'Datetime cheatsheet'}]],
   ['VGeKTmF2hyY', '4. Automation with python anywhere'],
   ['ij3vt6qLlD4', '5. Patient email CHALLENGE'],
   ['DET0G4x8trI', '6. CHALLENGE: Compare date function'],
@@ -126,7 +139,7 @@ const section8Links = [
 ]
 
 
-
+export const thumbnailList = [T_0, T_1, T_2, T_3, T_4, T_5, T_6, T_7, T_8]
 
 export const sectionTitles = ['Course Preparation', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Interacting with files', 'Sending automated emails','Data Visualization','APIs', 'Competition Week'];
 export const sectionLinksList = [section0Links, section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links]

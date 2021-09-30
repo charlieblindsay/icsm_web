@@ -1,11 +1,11 @@
 import React from 'react';
-import Thumbnail_1 from '../img/thumbnail_1.png';
+
 
 function CourseButtonGrey(props){
     return (
             <div className='section-button__link'>
                 <div className="row section-button section-button-grey margin-small">
-                    <img src={Thumbnail_1} alt="" width="40%"/>
+                    <img src={props.thumbnail} alt="" width="40%"/>
                     <div className='text-center'>
                         <h5 className="course-comingsoon-text">Coming soon...</h5>
                         <h3 className="course-date-text">{props.date}</h3>

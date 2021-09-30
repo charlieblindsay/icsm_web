@@ -8,16 +8,23 @@
     flex-wrap: wrap;
 }
 
-.team-image{
-    max-height: 300px;
-    max-width: 300px;
-}
-
-.photo-container{
-    margin: 5em;
+.image-cropper {
+    margin: 2em;
     width: 15em;
     height: 15em;
-    text-align: center;
-    background-color: $color-light-grey;
+    position: relative;
+    overflow: hidden;
     border-radius: 50%;
+}
+
+.profile-pic {
+    display: inline;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+  }
+
+.image-text{
+    width: 100%;
+    text-align: center;
 }

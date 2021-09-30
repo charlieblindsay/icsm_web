@@ -4,7 +4,7 @@ import {sectionTitles, sectionLinksList} from '../data/data'
 import {Link} from 'react-router-dom';
 
 function Section(props) {
-  const videoList = sectionLinksList[parseInt(props.sectionNumber)].map(e => <Video src={e[0]} videoTitle={e[1]} external_link_url={e[2]} external_link_title={e[3]} />);
+  const videoList = sectionLinksList[parseInt(props.sectionNumber)].map(e => <Video src={e[0]} videoTitle={e[1]} external_link_dict={e[2]} />);
   const srcList = sectionLinksList[parseInt(props.sectionNumber)].map(e => <a className='side-bar-nav__item' href={'#' + e[0]}>{e[1]}</a>);
     return (
       <div className='video-section'>
