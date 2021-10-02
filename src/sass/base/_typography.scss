@@ -125,3 +125,10 @@ base {
     visibility: hidden;
   }
 }
+
+.hidden-small{
+  @include respond(tab-port){
+    visibility: hidden;
+  }
+}
+
