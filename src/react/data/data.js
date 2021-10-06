@@ -28,11 +28,12 @@ const section1Links = [
 ['LiHa6cS0Otw', '2. Data types and Variables'],
 ['mXu1JYsy1-g', '3. Making programs interactive with the input() Function'],
 ['OK2e90JnVpU','4. String formatting with f-strings'],
-['EvIU_YqRDuU', '5. f-string Exercise'],
-['ZL6UIUb8mYc', '6. f-string Exercise Solution'],
-['5JBrh5bfAuk', '7. Mathematical operators'],
+['EvIU_YqRDuU', '5. f-string Exercise', [{'url':'https://replit.com/join/zihyjsoopp-codingicsm', 'title':'f-string exercise Repl'}]],
+['ZL6UIUb8mYc', '6. f-string Exercise Solution', [{'url':'https://replit.com/join/ldhnhugcnp-codingicsm', 'title': 'f-string exercise solution'}]],
+['5JBrh5bfAuk', '7. Mathematical operators', [{'url':'https://replit.com/join/kfoarqregu-codingicsm', 'title': 'Operators Repl'}]],
+[defaultLink, 'Divisibility checker Exercise'],
 ['xvqJJCUv1-Q', 'Conditional Statements'],
-['Ox106YhGbig', 'Leap Year Challenge'],
+['Ox106YhGbig', 'Leap Year Challenge', [{'url': 'https://replit.com/@CodingICSM/Leap-Year-Challenge', 'title': 'Leap year challenge'}, {'url': 'https://replit.com/@CodingICSM/Leap-Year-Challenge-answer#main.py', 'title': 'Leap year challenge solution'}]],
 ];
 
 const section2Links = [
@@ -147,6 +148,6 @@ export const descriptionList = ['Videos you should watch before starting the cou
 
 export const datesList = ['released', '18th Oct', '25th Oct', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec',];
 
-export const availableList = [1,0,0,0,0,0,0,0,0];
+// export const availableList = [1,0,0,0,0,0,0,0,0];
 
-// export const availableList = [1,1,1,1,1,1,1,1,1];
+export const availableList = [1,1,1,1,1,1,1,1,1];
