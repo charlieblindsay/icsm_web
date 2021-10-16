@@ -148,6 +148,6 @@ export const descriptionList = ['Videos you should watch before starting the cou
 
 export const datesList = ['released', '18th Oct', '25th Oct', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec',];
 
-export const availableList = [1,0,0,0,0,0,0,0,0];
+export const availableList = [1,1,0,0,0,0,0,0,0];
 
 // export const availableList = [1,1,1,1,1,1,1,1,1];
