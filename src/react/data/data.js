@@ -15,7 +15,7 @@ const section0Links = [
   ['mP2-3FgrPWs','Course Introduction',],
   ['W2RdDM-7-j8', 'How to fork a repl', [{'url': 'https://replit.com/@CodingICSM/List-comprehension', 'title': 'Click here to practise forking a repl'}]],
   ['eU-BdoHuja8', 'How to download Course Files from Github', [{'url': 'https://github.com/icsm-coding/Python-Course', 'title': 'Click here to go to our github page'}]],
-  ['zdhRofu_oeI','Pycharm: Download and Installation'],
+  ['zdhRofu_oeI','Pycharm: Download and Installation', ],
   ['6K3mU_vt8fM','Pycharm: Creating a Virtual Environment'],
   ['ICTVyB8PKcg','Pycharm: Basic Feaures (creating scripts, run configurations, installing packages)'],
   ['hU0v3q3Ne6I','Installing Jupyter 1: How to install python'],
@@ -24,15 +24,16 @@ const section0Links = [
 ]
 
 const section1Links = [
-['JDNs_RBoXLo', '1. Printing to the console'],
-['LiHa6cS0Otw', '2. Data types and Variables'],
-['mXu1JYsy1-g', '3. The input() Function'],
-['OK2e90JnVpU','4. String formatting with f-strings'],
-['EvIU_YqRDuU', '5. f-string Exercise', [{'url':'https://replit.com/join/zihyjsoopp-codingicsm', 'title':'f-string exercise Repl'}]],
-['ZL6UIUb8mYc', '6. f-string Exercise Solution', [{'url':'https://replit.com/join/ldhnhugcnp-codingicsm', 'title': 'f-string exercise solution'}]],
-['5JBrh5bfAuk', '7. Mathematical operators', [{'url':'https://replit.com/join/kfoarqregu-codingicsm', 'title': 'Operators Repl'}]],
-['xvqJJCUv1-Q', '8. Conditional Statements'],
-['Ox106YhGbig', '9. Leap Year Challenge', [{'url': 'https://replit.com/@CodingICSM/Leap-Year-Challenge', 'title': 'Leap year challenge'}, {'url': 'https://replit.com/@CodingICSM/Leap-Year-Challenge-answer#main.py', 'title': 'Leap year challenge solution'}]],
+['bxBHIhyJapA', '1. Section 1 Introduction'],
+['JDNs_RBoXLo', '2. Printing to the console', [{'url': 'https://replit.com/@CodingICSM/Blank-repl#main.py', 'title': 'Blank repl to code along'}]],
+['LiHa6cS0Otw', '3. Data types and Variables', [{'url': 'https://replit.com/@CodingICSM/Blank-repl#main.py', 'title': 'Blank repl to code along'}]],
+['mXu1JYsy1-g', '4. Making programs interactive with the input() Function', [{'url': 'https://replit.com/@CodingICSM/Blank-repl#main.py', 'title': 'Blank repl to code along'}]],
+['OK2e90JnVpU','5. String formatting with f-strings', [{'url': 'https://replit.com/@CodingICSM/Blank-repl#main.py', 'title': 'Blank repl to code along'}]],
+['EvIU_YqRDuU', '6. f-string Exercise', [{'url':'https://replit.com/join/zihyjsoopp-codingicsm', 'title':'f-string exercise Repl'}]],
+['ZL6UIUb8mYc', '7. f-string Exercise Solution', [{'url':'https://replit.com/join/ldhnhugcnp-codingicsm', 'title': 'f-string exercise solution'}]],
+['5JBrh5bfAuk', '8. Mathematical operators', [{'url':'https://replit.com/join/kfoarqregu-codingicsm', 'title': 'Operators Repl'}]],
+['xvqJJCUv1-Q', '10. Conditional Statements', [{'url': 'https://replit.com/@CodingICSM/Blank-repl#main.py', 'title': 'Blank repl to code along'}]],
+['Ox106YhGbig', '11. Leap Year Challenge', [{'url': 'https://replit.com/@CodingICSM/Leap-Year-Challenge', 'title': 'Leap year challenge'}, {'url': 'https://replit.com/@CodingICSM/Leap-Year-Challenge-answer#main.py', 'title': 'Leap year challenge solution'}]],
 ];
 
 const section2Links = [
@@ -55,12 +56,12 @@ const section2Links = [
   ];
 
 const section3Links = [
-    [defaultLink, 'Introduction to Section 3'],
-    ['RLr4BaJX9x4', '1. Section 3 Function Presentation'],
-    ['eiT0rq0hDvA', '2. Section 3 Function without parameters'],
-    ['kwbOEHztZec', '3. Section 3 Function with parameters'],
-    ['xvlcYT7JFVY', '4. The difference between positional and keyword arguments'],
-    ['q4-fVAkUYT4', '5. The scope of variables'],
+    ['i-_-IFeVlE0', '1. Section 3 Introduction'],
+    ['RLr4BaJX9x4', '2. Introduction to Python Functions'],
+    ['eiT0rq0hDvA', '3. Functions without parameters'],
+    ['kwbOEHztZec', '4. Functions with parameters'],
+    ['xvlcYT7JFVY', '5. The difference between positional and keyword arguments'],
+    ['q4-fVAkUYT4', '6. The scope of variables'],
     [defaultLink, 'Solution to hangman (MULTIPLE VIDEOS)'],
 ]
 
@@ -143,7 +144,7 @@ export const thumbnailList = [T_0, T_1, T_2, T_3, T_4, T_5, T_6, T_7, T_8]
 
 export const sectionTitles = ['Course Preparation', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Interacting with files', 'Sending automated emails','Data Visualization','APIs', 'Competition Week'];
 export const sectionLinksList = [section0Links, section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links]
-export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', '', 'ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum','ipsum', ];
+export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', 'Learn about 2 new data structures: Lists & Dictionaries as well as how to complete repetitive tasks using loops', 'Learn how to use functions so that you don’t repeat yourself! This will help you create a hangman game!','Learn how to bundle attributes and methods to objects in Python & about external python libraries','Learn about file paths and how to read and write to text files using python','Learn how to send automated patient appointment reminder emails with Python','Learn how to visualize a blood pressure data from the world health organisation','Learn how to use the Bored, Nationalize and Nutritionix APIs' ];
 
 export const datesList = ['released', '18th Oct', '25th Oct', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec',];
 
