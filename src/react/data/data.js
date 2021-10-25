@@ -144,10 +144,10 @@ export const thumbnailList = [T_0, T_1, T_2, T_3, T_4, T_5, T_6, T_7, T_8]
 
 export const sectionTitles = ['Course Preparation', 'Variables, printing & conditionals', 'Lists, Loops and Dictionaries','Functions','Classes and Object Orientated Programming','Interacting with files', 'Sending automated emails','Data Visualization','APIs', 'Competition Week'];
 export const sectionLinksList = [section0Links, section1Links, section2Links, section3Links, section4Links, section5Links, section6Links, section7Links, section8Links]
-export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', 'Learn about 2 new data structures: Lists & Dictionaries as well as how to complete repetitive tasks using loops', 'Learn how to use functions so that you don’t repeat yourself! This will help you create a hangman game!','Learn how to bundle attributes and methods to objects in Python & about external python libraries','Learn about file paths and how to read and write to text files using python','Learn how to send automated patient appointment reminder emails with Python','Learn how to visualize a blood pressure data from the world health organisation','Learn how to use the Bored, Nationalize and Nutritionix APIs' ];
+export const descriptionList = ['Videos you should watch before starting the course', 'Introducing python and the basics of programming', 'Learn about 2 new data structures (Lists & Dictionaries) as well as how to complete repetitive tasks using loops', 'Learn how to use functions so that you don’t repeat yourself! This will help you create a hangman game!','Learn how to bundle attributes and methods to objects in Python & about external python libraries','Learn about file paths and how to read and write to text files using python','Learn how to send automated patient appointment reminder emails with Python','Learn how to visualize a blood pressure data from the world health organisation','Learn how to use the Bored, Nationalize and Nutritionix APIs' ];
 
-export const datesList = ['released', '18th Oct', '25th Oct', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec',];
+export const datesList = ['released', 'released', 'released', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec',];
 
-export const availableList = [1,1,0,0,0,0,0,0,0];
+export const availableList = [1,1,1,0,0,0,0,0,0];
 
 // export const availableList = [1,1,1,1,1,1,1,1,1];
