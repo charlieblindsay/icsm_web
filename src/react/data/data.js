@@ -56,13 +56,18 @@ const section2Links = [
   ];
 
 const section3Links = [
-    ['i-_-IFeVlE0', '1. Section 3 Introduction'],
+    ['i-_-IFeVlE0', '1. Section 3 Introduction', [{'url': 'https://www.youtube.com/watch?v=zdhRofu_oeI&list=PLYXnSJix0cCp9f_iHKzFAks2fqi11Ctx2&index=3', 'title': 'FORGOT TO MENTION: In this section, Emike uses PyCharm instead of repl.it so click this link to earn how to download it!'}, {'url': 'https://www.youtube.com/watch?v=6K3mU_vt8fM&list=PLYXnSJix0cCp9f_iHKzFAks2fqi11Ctx2&index=2', 'title': 'ALSO: Click here to learn about virtual environments in PyCharm'}, {'url': 'https://www.youtube.com/watch?v=ICTVyB8PKcg', 'title': 'ALSO: Click here to learn about the basic features of PyCharm'}]],
     ['RLr4BaJX9x4', '2. Introduction to Python Functions'],
     ['eiT0rq0hDvA', '3. Functions without parameters'],
     ['kwbOEHztZec', '4. Functions with parameters'],
     ['xvlcYT7JFVY', '5. The difference between positional and keyword arguments'],
     ['q4-fVAkUYT4', '6. The scope of variables'],
-    [defaultLink, 'Solution to hangman (MULTIPLE VIDEOS)'],
+    ['4pwAeD62_AQ', 'Hangman Project Introduction & Step 1', [{'url': 'https://replit.com/@CodingICSM/Hangman-Challenge#Instructions.md', 'title': 'Hangman instructions as Repl'},{'url': 'https://github.com/icsm-coding/Python-Course', 'title': 'Hangman End Project Code (in Section 3 github folder)'},{'url': 'https://www.youtube.com/watch?v=eU-BdoHuja8&list=PLYXnSJix0cCp9f_iHKzFAks2fqi11Ctx2&index=5&t=1s', 'title': 'Watch this video to learn how to download the course github files'}]],
+    ['nM3ohlZCQ1o', 'Hangman Project Step 2'],
+    ['uuC4lUK5vOM', 'Hangman Project Step 3'],
+    ['z7RviUpkzGk', 'Hangman Project Step 4'],
+    ['ACDw9ZfSGF0', 'Hangman Project Step 5'],
+    ['nPFRPnlQMuM', 'Hangman Project Step 6'],
 ]
 
 const section4Links = [
@@ -121,7 +126,12 @@ const section7Links = [
 ['OF2C5BRLoA','Blood Pressure 9: Converting blood pressure data from strings to floats'],
 ['GUoF08r8xtw','Blood Pressure 10: Transposing and reversing the data for seaborn'],
 ['C5UHJ2Qkt-g', 'Blood Pressure 11: Using seaborn to VISUALIZE DATA'],
-['Vaf4DPudA-Q','Blood Pressure 12: plt.xticks']
+['Vaf4DPudA-Q','Blood Pressure 12: plt.xticks'],
+['mbhP75hkczw','Workbook Part 1: installing packages'],
+['wYet-O6fguo','Workbook part 2: importing packages'],
+['e27L4JCykOw','Workbook Part 3: Opening Dataset'],
+['UmcD5db2gnU','Workbook part 5: Transposing to Seaborn'],
+['22WsSu2Vb-k','Workbook part 6: Creating Plots']
 ]
 
 
@@ -148,6 +158,6 @@ export const descriptionList = ['Videos you should watch before starting the cou
 
 export const datesList = ['released', 'released', 'released', '1st Nov', '8th Nov','15th Nov','22nd Nov','29th Nov','6 Dec',];
 
-export const availableList = [1,1,1,0,0,0,0,0,0];
+export const availableList = [1,1,1,1,0,0,0,0,0];
 
 // export const availableList = [1,1,1,1,1,1,1,1,1];
