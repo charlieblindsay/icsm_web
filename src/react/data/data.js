@@ -411,12 +411,12 @@ export const datesList = [
   "released",
   "released",
   "released",
-  "15th Nov",
+  "released",
   "22nd Nov",
   "29th Nov",
   "6 Dec",
 ];
 
-export const availableList = [1, 1, 1, 1, 1, 0, 0, 0, 0];
+export const availableList = [1, 1, 1, 1, 1, 1, 0, 0, 0];
 
 // export const availableList = [1,1,1,1,1,1,1,1,1];
