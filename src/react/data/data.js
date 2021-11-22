@@ -417,6 +417,6 @@ export const datesList = [
   "6 Dec",
 ];
 
-export const availableList = [1, 1, 1, 1, 1, 1, 0, 0, 0];
+export const availableList = [1, 1, 1, 1, 1, 1, 1, 0, 0];
 
 // export const availableList = [1,1,1,1,1,1,1,1,1];
