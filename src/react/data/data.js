@@ -318,8 +318,26 @@ const section6Links = [
 ];
 
 const section7Links = [
-  ["04Di068aygI", "Introduction to Section 7"],
-  ["fuADC_kmOaQ", "Introduction to pandas DataFrame object"],
+  [
+    "04Di068aygI",
+    "Introduction to Section 7",
+    [
+      {
+        url: "https://github.com/icsm-coding/Python-Course",
+        title: "NEW CONTENT: Click here to go to our github page",
+      },
+    ],
+  ],
+  [
+    "fuADC_kmOaQ",
+    "Introduction to pandas DataFrame object",
+    [
+      {
+        url: "https://github.com/icsm-coding/Python-Course",
+        title: "NEW CONTENT: Click here to go to our github page",
+      },
+    ],
+  ],
   ["vm3PCIXZDmY", "Creating a pandas DataFrame object with its constructor"],
   ["9aPVz_5KZJc", "pandas DataFrame attributes"],
   ["Acm2B_IsCBQ", "df.iloc"],
@@ -329,16 +347,25 @@ const section7Links = [
     "jEVkk9DOi_Q",
     "Accessing rows in a DataFrame based on the values of columns",
   ],
-  ["zJnQmrZIJ_Q", "Blood Pressure 1: Installing and importing libraries"],
+  [
+    "zJnQmrZIJ_Q",
+    "Blood Pressure 1: Installing and importing libraries",
+    [
+      {
+        url: "https://github.com/icsm-coding/Python-Course",
+        title: "NEW CONTENT: Click here to go to our github page",
+      },
+    ],
+  ],
   ["vWlh_nq8DZA", "Blood Pressure 2: Downloading csv file"],
   ["ICekrRHm5wE", "Blood Pressure 3: pd.read_csv"],
   ["AkCYRHMX6lI", "Blood Pressure 4: Renaming columns"],
-  ["2htd7ttyg", "Blood Pressure 5: Removing rows challenge"],
+  ["iE8RpmucGWM", "Blood Pressure 5: Removing rows challenge"],
   ["6hDhs4gBsMg", "Blood Pressure 6: Setting index column"],
   ["8yTbflmVpLQ", "Blood Pressure 7: Removing the blood pressure range values"],
   ["ZktnVPaiwDg", "Blood Pressure 8: Creating smaller DataFrame"],
   [
-    "OF2C5BRLoA",
+    "OF2C5B-RLoA",
     "Blood Pressure 9: Converting blood pressure data from strings to floats",
   ],
   [
@@ -347,9 +374,19 @@ const section7Links = [
   ],
   ["C5UHJ2Qkt-g", "Blood Pressure 11: Using seaborn to VISUALIZE DATA"],
   ["Vaf4DPudA-Q", "Blood Pressure 12: plt.xticks"],
-  ["mbhP75hkczw", "Workbook Part 1: installing packages"],
+  [
+    "mbhP75hkczw",
+    "Workbook Part 1: installing packages",
+    [
+      {
+        url: "https://github.com/icsm-coding/Python-Course",
+        title: "NEW CONTENT: Click here to go to our github page",
+      },
+    ],
+  ],
   ["wYet-O6fguo", "Workbook part 2: importing packages"],
   ["e27L4JCykOw", "Workbook Part 3: Opening Dataset"],
+  ["IUjAXdSmn4s", "Workbook Part 4: Cleaning the Dataset"],
   ["UmcD5db2gnU", "Workbook part 5: Transposing to Seaborn"],
   ["22WsSu2Vb-k", "Workbook part 6: Creating Plots"],
 ];
@@ -417,6 +454,6 @@ export const datesList = [
   "6 Dec",
 ];
 
-export const availableList = [1, 1, 1, 1, 1, 1, 1, 0, 0];
+export const availableList = [1, 1, 1, 1, 1, 1, 1, 1, 0];
 
 // export const availableList = [1,1,1,1,1,1,1,1,1];
